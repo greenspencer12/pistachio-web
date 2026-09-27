@@ -64,6 +64,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`scroll-smooth ${poppins.variable}`}>
       <head>
+        <link rel="stylesheet" href="/mercury.css" />
         <RestaurantJsonLd />
       </head>
       <body className={`${poppins.className} min-h-screen flex flex-col bg-white text-stone-900 selection:bg-[#fc574a] selection:text-white`}>

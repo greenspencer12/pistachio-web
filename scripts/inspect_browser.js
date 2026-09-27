@@ -17,7 +17,8 @@ async function main() {
   const page = await context.newPage();
 
   console.log('Navigating to http://localhost:3000/ ...');
-  await page.goto('http://localhost:3000/', { waitUntil: 'networkidle', timeout: 15000 });
+  await page.goto('http://localhost:3000/', { waitUntil: 'domcontentloaded', timeout: 30000 });
+  await page.waitForTimeout(3000);
 
   // Take full page screenshot of local site
   const localScreenshotPath = path.join(__dirname, '..', 'localhost_full.png');

@@ -1,8 +1,12 @@
-'use client';
+import sys
 
-import React, { useState } from 'react';
-import Link from 'next/link';
-import { FaqJsonLd } from '@/components/JsonLd';
+sys.stdout.reconfigure(encoding='utf-8')
+
+page_tsx = '''\'use client\';
+
+import React, { useState } from \'react\';
+import Link from \'next/link\';
+import { FaqJsonLd } from \'@/components/JsonLd\';
 
 export default function HomePage() {
   const [activeLocationTab, setActiveLocationTab] = useState<0 | 1>(0);
@@ -199,40 +203,40 @@ export default function HomePage() {
           <div className="max-w-section-container mx-auto grid w-full grid-cols-2 gap-2 md:grid-cols-3 md:gap-4 px-2 md:px-4">
             {[
               {
-                uuid: 'ae3048e3-d444-4c26-b0f0-cab2ec416401',
-                alt: 'Cozy Pistachio Cafe interior with a yellow sofa, coffee bar, and customers at the counter.',
+                uuid: \'ae3048e3-d444-4c26-b0f0-cab2ec416401\',
+                alt: \'Cozy Pistachio Cafe interior with a yellow sofa, coffee bar, and customers at the counter.\',
               },
               {
-                uuid: '05d13f2c-8da6-4968-bc0d-02bab6e11952',
-                alt: 'The Pistachio Cafe interior features vintage furniture, lush plants, and ornate decor under a patterned ceiling.',
+                uuid: \'05d13f2c-8da6-4968-bc0d-02bab6e11952\',
+                alt: \'The Pistachio Cafe interior features vintage furniture, lush plants, and ornate decor under a patterned ceiling.\',
               },
               {
-                uuid: '10299bb2-e19e-4e11-8e8a-e8a37c542675',
-                alt: 'A cup of coffee on a marble table with a floral centerpiece and elegant cafe seating in the background.',
+                uuid: \'10299bb2-e19e-4e11-8e8a-e8a37c542675\',
+                alt: \'A cup of coffee on a marble table with a floral centerpiece and elegant cafe seating in the background.\',
               },
               {
-                uuid: 'bee42194-44eb-4b51-9089-01285443f9dd',
-                alt: 'A slice of chocolate cake with creamy layers and chocolate drizzle, garnished with dried rosebuds.',
+                uuid: \'bee42194-44eb-4b51-9089-01285443f9dd\',
+                alt: \'A slice of chocolate cake with creamy layers and chocolate drizzle, garnished with dried rosebuds.\',
               },
               {
-                uuid: '64587d10-78dc-488f-a6d3-5f43aa3f3603',
-                alt: 'A red macaron, cupcake, and coffee on a table inside Pistachio Cafe, with display cases in the background.',
+                uuid: \'64587d10-78dc-488f-a6d3-5f43aa3f3603\',
+                alt: \'A red macaron, cupcake, and coffee on a table inside Pistachio Cafe, with display cases in the background.\',
               },
               {
-                uuid: 'dfe26d0f-8856-4cec-a704-7ac4bee8e9a7',
-                alt: 'A decorative plate holds a variety of baklava pastries, including one with a pistachio filling.',
+                uuid: \'dfe26d0f-8856-4cec-a704-7ac4bee8e9a7\',
+                alt: \'A decorative plate holds a variety of baklava pastries, including one with a pistachio filling.\',
               },
               {
-                uuid: 'bcfaf0ae-f4db-40e7-941d-b9365494f783',
-                alt: 'A latte with rose petals and baklava on a table at Pistachio Cafe, with a sofa and window in the background.',
+                uuid: \'bcfaf0ae-f4db-40e7-941d-b9365494f783\',
+                alt: \'A latte with rose petals and baklava on a table at Pistachio Cafe, with a sofa and window in the background.\',
               },
               {
-                uuid: 'c7fbc300-0885-4a7d-a656-3092ba8ee971',
-                alt: 'Slice of pistachio cake with rose petals, powdered sugar, and whipped cream on a plate.',
+                uuid: \'c7fbc300-0885-4a7d-a656-3092ba8ee971\',
+                alt: \'Slice of pistachio cake with rose petals, powdered sugar, and whipped cream on a plate.\',
               },
               {
-                uuid: 'de6aa2c7-fc62-440d-aa47-7aa11512a750',
-                alt: 'A pistachio latte with almond slivers and chocolate drizzle in an ornate gold and floral teacup.',
+                uuid: \'de6aa2c7-fc62-440d-aa47-7aa11512a750\',
+                alt: \'A pistachio latte with almond slivers and chocolate drizzle in an ornate gold and floral teacup.\',
               },
             ].map((item, i) => (
               <div key={i} className="group relative flex aspect-square overflow-hidden rounded-mercury-ui-md bg-mercury-ui-secondary shadow-sm">
@@ -390,52 +394,52 @@ export default function HomePage() {
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
             {[
               {
-                uuid: '0de9c7b2-e552-4641-bc14-0cc42db5836f',
-                alt: 'Toasted bread with brie cheese, fig jam, and fresh basil on a white rectangular plate.',
+                uuid: \'0de9c7b2-e552-4641-bc14-0cc42db5836f\',
+                alt: \'Toasted bread with brie cheese, fig jam, and fresh basil on a white rectangular plate.\',
               },
               {
-                uuid: '82ccdb21-fc8f-4f6b-b15d-b26845d3ae66',
-                alt: 'A Pistachio Cafe sandwich with sun-dried tomatoes, mozzarella, and arugula on toasted bread.',
+                uuid: \'82ccdb21-fc8f-4f6b-b15d-b26845d3ae66\',
+                alt: \'A Pistachio Cafe sandwich with sun-dried tomatoes, mozzarella, and arugula on toasted bread.\',
               },
               {
-                uuid: '4ddc4de5-41bb-40f0-8e6b-38d33782e062',
-                alt: 'Two Pistachio Cafe waffles with chocolate, strawberries, powdered sugar, and pistachio crumbles on a wooden board.',
+                uuid: \'4ddc4de5-41bb-40f0-8e6b-38d33782e062\',
+                alt: \'Two Pistachio Cafe waffles with chocolate, strawberries, powdered sugar, and pistachio crumbles on a wooden board.\',
               },
               {
-                uuid: 'bd206906-9044-4428-b205-5949ea281150',
-                alt: 'Falafel salad with lettuce, tomatoes, cucumbers, and a creamy white dressing in a white bowl.',
+                uuid: \'bd206906-9044-4428-b205-5949ea281150\',
+                alt: \'Falafel salad with lettuce, tomatoes, cucumbers, and a creamy white dressing in a white bowl.\',
               },
               {
-                uuid: '8034e161-faf6-4bba-a78f-ba1999861cab',
-                alt: 'Grilled panini sandwich with cheese, arugula, and a dark spread on a wooden board.',
+                uuid: \'8034e161-faf6-4bba-a78f-ba1999861cab\',
+                alt: \'Grilled panini sandwich with cheese, arugula, and a dark spread on a wooden board.\',
               },
               {
-                uuid: 'f557f701-e1ce-4322-b522-632975a3f076',
-                alt: 'Golden brown pastries with sweet cheese filling on a white decorative plate at Pistachio Cafe.',
+                uuid: \'f557f701-e1ce-4322-b522-632975a3f076\',
+                alt: \'Golden brown pastries with sweet cheese filling on a white decorative plate at Pistachio Cafe.\',
               },
               {
-                uuid: '2dd1a454-9234-4849-b6e5-24839bee70ac',
-                alt: 'Pistachio Cafe muffins with white icing and green pistachio crumbles on a decorative white plate.',
+                uuid: \'2dd1a454-9234-4849-b6e5-24839bee70ac\',
+                alt: \'Pistachio Cafe muffins with white icing and green pistachio crumbles on a decorative white plate.\',
               },
               {
-                uuid: 'c5dd51e3-7533-4ac7-a56c-9d82ed7dc202',
-                alt: 'Seven colorful macarons in a clear plastic container, including red, orange, green, white, and blue.',
+                uuid: \'c5dd51e3-7533-4ac7-a56c-9d82ed7dc202\',
+                alt: \'Seven colorful macarons in a clear plastic container, including red, orange, green, white, and blue.\',
               },
               {
-                uuid: 'fd54b3e4-4fe1-46fb-91eb-9eb6b81f1809',
-                alt: 'Three pieces of Pistachio Cafe baklava stacked on a decorative white and gold plate.',
+                uuid: \'fd54b3e4-4fe1-46fb-91eb-9eb6b81f1809\',
+                alt: \'Three pieces of Pistachio Cafe baklava stacked on a decorative white and gold plate.\',
               },
               {
-                uuid: '2be6b657-a57c-4ae7-9112-faef8d5514e2',
-                alt: 'A refreshing blueberry drink with mint, lime, and a red-striped straw on a marble table.',
+                uuid: \'2be6b657-a57c-4ae7-9112-faef8d5514e2\',
+                alt: \'A refreshing blueberry drink with mint, lime, and a red-striped straw on a marble table.\',
               },
               {
-                uuid: '82d60653-64ba-48bb-878a-4264eaed2ed3',
-                alt: 'Pink raspberry drink with ice, a lime slice, and a red and white striped straw on a marble table.',
+                uuid: \'82d60653-64ba-48bb-878a-4264eaed2ed3\',
+                alt: \'Pink raspberry drink with ice, a lime slice, and a red and white striped straw on a marble table.\',
               },
               {
-                uuid: '0d0790b6-c275-4bed-9732-22bbfefe886e',
-                alt: 'A vibrant red drink with ice and cherries, served in a tall glass with a striped straw.',
+                uuid: \'0d0790b6-c275-4bed-9732-22bbfefe886e\',
+                alt: \'A vibrant red drink with ice and cherries, served in a tall glass with a striped straw.\',
               },
             ].map((item, i) => (
               <div key={i} className="group relative flex aspect-square overflow-hidden rounded-mercury-ui-md bg-mercury-ui-secondary shadow-sm">
@@ -542,7 +546,7 @@ export default function HomePage() {
           <div className="grid justify-items-center gap-6 self-center md:flex md:flex-wrap md:justify-center md:gap-x-8 md:gap-y-10 grid-cols-2">
             {[
               {
-                title: 'Catering',
+                title: \'Catering\',
                 icon: (
                   <svg className="w-6 h-6 text-mercury-ui-text-secondary" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
                     <rect height="11" rx="1.5" width="14" x="5" y="8" />
@@ -551,7 +555,7 @@ export default function HomePage() {
                 ),
               },
               {
-                title: 'Delivery',
+                title: \'Delivery\',
                 icon: (
                   <svg className="w-6 h-6 text-mercury-ui-text-secondary" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
                     <path d="M1 3h15v13H1zM16 8h4l3 3v5h-7V8zM5.5 21a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zM18.5 21a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
@@ -559,7 +563,7 @@ export default function HomePage() {
                 ),
               },
               {
-                title: 'Takeout',
+                title: \'Takeout\',
                 icon: (
                   <svg className="w-6 h-6 text-mercury-ui-text-secondary" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
                     <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4zM3 6h18M16 10a4 4 0 0 1-8 0" />
@@ -567,7 +571,7 @@ export default function HomePage() {
                 ),
               },
               {
-                title: 'Dine In',
+                title: \'Dine In\',
                 icon: (
                   <svg className="w-6 h-6 text-mercury-ui-text-secondary" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
                     <path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3" />
@@ -575,7 +579,7 @@ export default function HomePage() {
                 ),
               },
               {
-                title: 'Reservations',
+                title: \'Reservations\',
                 icon: (
                   <svg className="w-6 h-6 text-mercury-ui-text-secondary" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
                     <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
@@ -586,7 +590,7 @@ export default function HomePage() {
                 ),
               },
               {
-                title: 'Outdoor Seating',
+                title: \'Outdoor Seating\',
                 icon: (
                   <svg className="w-6 h-6 text-mercury-ui-text-secondary" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
                     <path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M19.07 4.93L4.93 19.07" />
@@ -659,18 +663,18 @@ export default function HomePage() {
                 <p className="text-mercury-ui-text-secondary text-sm md:text-base leading-relaxed m-0">
                   We are known for{' '}
                   {[
-                    'Macarons', 'Hot Chocolate', 'Teas', 'Deli Sandwiches', 'Shawarma', 'Cappuccino', 'Salads',
-                    'Red Velvet Cake', 'Breakfast', 'Fries', 'Baba Ghanoush', 'Smoothie', 'Cakes', 'London Fog',
-                    'Eclair', 'Smoothies', 'Labneh', 'Coffee', 'Macaron', 'Drip Coffee', 'Almond Croissant',
-                    'Dessert', 'Sandwiches', 'Mezze Platter', 'Milkshake', 'Middle Eastern Food', 'Chicken Shawarma',
-                    'Lattes', 'Cheese Danish', 'Baklava', 'Pie', 'Muffin', 'Eclairs', 'Pastries', 'Halal Food',
-                    'Ice Cream', 'Omelette', 'Falafel', 'Lunch', 'Dinner', 'Takeout', 'Delivery'
+                    \'Macarons\', \'Hot Chocolate\', \'Teas\', \'Deli Sandwiches\', \'Shawarma\', \'Cappuccino\', \'Salads\',
+                    \'Red Velvet Cake\', \'Breakfast\', \'Fries\', \'Baba Ghanoush\', \'Smoothie\', \'Cakes\', \'London Fog\',
+                    \'Eclair\', \'Smoothies\', \'Labneh\', \'Coffee\', \'Macaron\', \'Drip Coffee\', \'Almond Croissant\',
+                    \'Dessert\', \'Sandwiches\', \'Mezze Platter\', \'Milkshake\', \'Middle Eastern Food\', \'Chicken Shawarma\',
+                    \'Lattes\', \'Cheese Danish\', \'Baklava\', \'Pie\', \'Muffin\', \'Eclairs\', \'Pastries\', \'Halal Food\',
+                    \'Ice Cream\', \'Omelette\', \'Falafel\', \'Lunch\', \'Dinner\', \'Takeout\', \'Delivery\'
                   ].map((tag, i, arr) => (
                     <span key={i}>
                       <Link href="/menu" className="text-mercury-ui-text-secondary hover:underline">
                         {tag}
                       </Link>
-                      {i < arr.length - 1 ? ' , ' : ''}
+                      {i < arr.length - 1 ? \' , \' : \'\'}
                     </span>
                   ))}
                 </p>
@@ -695,7 +699,7 @@ export default function HomePage() {
                       <Link href="/menu" className="text-mercury-ui-text-secondary hover:underline">
                         {meal}
                       </Link>
-                      {i < arr.length - 1 ? ' , ' : ''}
+                      {i < arr.length - 1 ? \' , \' : \'\'}
                     </span>
                   ))}
                 </p>
@@ -736,15 +740,15 @@ export default function HomePage() {
                 <p className="text-mercury-ui-text-secondary text-sm md:text-base leading-relaxed m-0">
                   We serve the following areas:{' '}
                   {[
-                    'New Haven', 'West Haven', 'Whitneyville', 'Beaver Hills', 'West River', 'Newhallville',
-                    'Downtown', 'Spring Glen', 'Dixwell', 'Edgewood', 'Woodbridge', 'Prospect Hill', 'Amity',
-                    'West Rock', 'Hamden', 'East Haven', 'Wooster Square/Mill River', 'Augerville', 'Hill', 'Orange'
+                    \'New Haven\', \'West Haven\', \'Whitneyville\', \'Beaver Hills\', \'West River\', \'Newhallville\',
+                    \'Downtown\', \'Spring Glen\', \'Dixwell\', \'Edgewood\', \'Woodbridge\', \'Prospect Hill\', \'Amity\',
+                    \'West Rock\', \'Hamden\', \'East Haven\', \'Wooster Square/Mill River\', \'Augerville\', \'Hill\', \'Orange\'
                   ].map((area, i, arr) => (
                     <span key={i}>
                       <span className="text-mercury-ui-text-secondary">
                         {area}
                       </span>
-                      {i < arr.length - 1 ? ' , ' : ''}
+                      {i < arr.length - 1 ? \' , \' : \'\'}
                     </span>
                   ))}
                 </p>
@@ -791,8 +795,8 @@ export default function HomePage() {
               onClick={() => setActiveLocationTab(0)}
               className={`location-pill px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                 activeLocationTab === 0
-                  ? 'bg-mercury-ui-button-primary text-white'
-                  : 'bg-mercury-ui-secondary text-mercury-ui-text-secondary hover:bg-mercury-ui-tertiary'
+                  ? \'bg-mercury-ui-button-primary text-white\'
+                  : \'bg-mercury-ui-secondary text-mercury-ui-text-secondary hover:bg-mercury-ui-tertiary\'
               }`}
             >
               911 Whalley Ave
@@ -802,8 +806,8 @@ export default function HomePage() {
               onClick={() => setActiveLocationTab(1)}
               className={`location-pill px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                 activeLocationTab === 1
-                  ? 'bg-mercury-ui-button-primary text-white'
-                  : 'bg-mercury-ui-secondary text-mercury-ui-text-secondary hover:bg-mercury-ui-tertiary'
+                  ? \'bg-mercury-ui-button-primary text-white\'
+                  : \'bg-mercury-ui-secondary text-mercury-ui-text-secondary hover:bg-mercury-ui-tertiary\'
               }`}
             >
               1245 Chapel St
@@ -954,3 +958,9 @@ export default function HomePage() {
     </>
   );
 }
+'''
+
+with open('app/page.tsx', 'w', encoding='utf-8') as f:
+    f.write(page_tsx)
+
+print("Updated app/page.tsx with accordion FAQs, carousel track, and authentic alt texts!")
