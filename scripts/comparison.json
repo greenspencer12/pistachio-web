@@ -1,0 +1,517 @@
+{
+  "local": {
+    "title": "Pistachio Cafe | Artisan Coffee, Breakfast & Brunch | New Haven, CT",
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Pistachio Cafe & Bakery",
+        "fontFamily": "Georgia, Cambria, \"Times New Roman\", serif",
+        "fontSize": "60px",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "H2",
+        "text": "Welcome to Pistachio Cafe!",
+        "fontFamily": "Georgia, Cambria, \"Times New Roman\", serif",
+        "fontSize": "36px",
+        "color": "rgb(28, 25, 23)"
+      },
+      {
+        "tag": "H2",
+        "text": "Your New Favorite Breakfast Spot in New Haven",
+        "fontFamily": "Georgia, Cambria, \"Times New Roman\", serif",
+        "fontSize": "36px",
+        "color": "rgb(28, 25, 23)"
+      },
+      {
+        "tag": "H2",
+        "text": "Daily Meals, Always Fresh 🌿",
+        "fontFamily": "Georgia, Cambria, \"Times New Roman\", serif",
+        "fontSize": "24px",
+        "color": "rgb(28, 25, 23)"
+      },
+      {
+        "tag": "H2",
+        "text": "A Coffee Shop for True Coffee Lovers ☕",
+        "fontFamily": "Georgia, Cambria, \"Times New Roman\", serif",
+        "fontSize": "24px",
+        "color": "rgb(28, 25, 23)"
+      },
+      {
+        "tag": "H2",
+        "text": "Fresh Brunch, Every Single Day 🍳",
+        "fontFamily": "Georgia, Cambria, \"Times New Roman\", serif",
+        "fontSize": "48px",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "H2",
+        "text": "Straight from Our Kitchen 📸",
+        "fontFamily": "Georgia, Cambria, \"Times New Roman\", serif",
+        "fontSize": "36px",
+        "color": "rgb(28, 25, 23)"
+      },
+      {
+        "tag": "H2",
+        "text": "Hosting an Event? We’ve Got Catering 🎉",
+        "fontFamily": "Georgia, Cambria, \"Times New Roman\", serif",
+        "fontSize": "30px",
+        "color": "rgb(28, 25, 23)"
+      },
+      {
+        "tag": "H2",
+        "text": "What Our Guests Are Saying",
+        "fontFamily": "Georgia, Cambria, \"Times New Roman\", serif",
+        "fontSize": "30px",
+        "color": "rgb(28, 25, 23)"
+      },
+      {
+        "tag": "H2",
+        "text": "Our Two New Haven Locations",
+        "fontFamily": "Georgia, Cambria, \"Times New Roman\", serif",
+        "fontSize": "30px",
+        "color": "rgb(28, 25, 23)"
+      },
+      {
+        "tag": "H3",
+        "text": "Pistachio Cafe (Westville)",
+        "fontFamily": "Georgia, Cambria, \"Times New Roman\", serif",
+        "fontSize": "24px",
+        "color": "rgb(28, 25, 23)"
+      },
+      {
+        "tag": "H3",
+        "text": "Pistachio Cafe 2 (Downtown New Haven)",
+        "fontFamily": "Georgia, Cambria, \"Times New Roman\", serif",
+        "fontSize": "24px",
+        "color": "rgb(28, 25, 23)"
+      },
+      {
+        "tag": "H2",
+        "text": "Frequently Asked Questions",
+        "fontFamily": "Georgia, Cambria, \"Times New Roman\", serif",
+        "fontSize": "30px",
+        "color": "rgb(28, 25, 23)"
+      },
+      {
+        "tag": "H3",
+        "text": "Pistachio 1 (Westville)",
+        "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "16px",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "H3",
+        "text": "Pistachio 2 (Downtown)",
+        "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "16px",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "H3",
+        "text": "QUICK LINKS",
+        "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "navLinks": [
+      {
+        "text": "Menu",
+        "href": "/menu"
+      },
+      {
+        "text": "Catering",
+        "href": "/catering"
+      },
+      {
+        "text": "Breakfast",
+        "href": "/page/breakfast"
+      },
+      {
+        "text": "Brunch",
+        "href": "/page/brunch"
+      },
+      {
+        "text": "Private Events",
+        "href": "/page/birthdays--space-rentals"
+      },
+      {
+        "text": "Our Story",
+        "href": "/story"
+      },
+      {
+        "text": "100% Halal",
+        "href": "/page/halal-at-pistachio"
+      },
+      {
+        "text": "Gift Cards",
+        "href": "https://squareup.com/gift/MLRXY208CEENQ/order"
+      }
+    ]
+  },
+  "live": {
+    "title": "Pistachio Cafe | Best Cafe in New Haven, CT | Cafe near me",
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Best Cafe in New Haven",
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "28px",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "tag": "H2",
+        "text": "Featured",
+        "fontFamily": "Poppins, \"Poppins Fallback: Segoe UI\", \"Poppins Fallback: Arial\", \"Segoe UI\", Arial",
+        "fontSize": "28px",
+        "color": "rgb(13, 13, 13)"
+      },
+      {
+        "tag": "H2",
+        "text": "Welcome to Pistachio Cafe!",
+        "fontFamily": "Poppins, \"Poppins Fallback: Segoe UI\", \"Poppins Fallback: Arial\", \"Segoe UI\", Arial",
+        "fontSize": "28px",
+        "color": "rgb(13, 13, 13)"
+      },
+      {
+        "tag": "H2",
+        "text": "Image gallery",
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "16px",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "tag": "H2",
+        "text": "Your New Favorite Breakfast Spot in New Haven",
+        "fontFamily": "Poppins, \"Poppins Fallback: Segoe UI\", \"Poppins Fallback: Arial\", \"Segoe UI\", Arial",
+        "fontSize": "28px",
+        "color": "rgb(13, 13, 13)"
+      },
+      {
+        "tag": "H2",
+        "text": "Daily Meals, Always Fresh🌿",
+        "fontFamily": "Poppins, \"Poppins Fallback: Segoe UI\", \"Poppins Fallback: Arial\", \"Segoe UI\", Arial",
+        "fontSize": "28px",
+        "color": "rgb(13, 13, 13)"
+      },
+      {
+        "tag": "H2",
+        "text": "A Coffee Shop for True Coffee Lovers",
+        "fontFamily": "Poppins, \"Poppins Fallback: Segoe UI\", \"Poppins Fallback: Arial\", \"Segoe UI\", Arial",
+        "fontSize": "28px",
+        "color": "rgb(13, 13, 13)"
+      },
+      {
+        "tag": "H2",
+        "text": "Fresh Brunch, Seven Days a Week🍳",
+        "fontFamily": "Poppins, \"Poppins Fallback: Segoe UI\", \"Poppins Fallback: Arial\", \"Segoe UI\", Arial",
+        "fontSize": "28px",
+        "color": "rgb(13, 13, 13)"
+      },
+      {
+        "tag": "H2",
+        "text": "Order From Our Website",
+        "fontFamily": "Poppins, \"Poppins Fallback: Segoe UI\", \"Poppins Fallback: Arial\", \"Segoe UI\", Arial",
+        "fontSize": "28px",
+        "color": "rgb(13, 13, 13)"
+      },
+      {
+        "tag": "H2",
+        "text": "Straight from Our Kitchen📸",
+        "fontFamily": "Poppins, \"Poppins Fallback: Segoe UI\", \"Poppins Fallback: Arial\", \"Segoe UI\", Arial",
+        "fontSize": "28px",
+        "color": "rgb(13, 13, 13)"
+      },
+      {
+        "tag": "H2",
+        "text": "Image gallery",
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "16px",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "tag": "H2",
+        "text": "Hosting an Event? We’ve Got Catering🎉",
+        "fontFamily": "Poppins, \"Poppins Fallback: Segoe UI\", \"Poppins Fallback: Arial\", \"Segoe UI\", Arial",
+        "fontSize": "28px",
+        "color": "rgb(13, 13, 13)"
+      },
+      {
+        "tag": "H2",
+        "text": "Featuring",
+        "fontFamily": "Poppins, \"Poppins Fallback: Segoe UI\", \"Poppins Fallback: Arial\", \"Segoe UI\", Arial",
+        "fontSize": "28px",
+        "color": "rgb(13, 13, 13)"
+      },
+      {
+        "tag": "H2",
+        "text": "Pistachio Cafe Rewards",
+        "fontFamily": "Poppins, \"Poppins Fallback: Segoe UI\", \"Poppins Fallback: Arial\", \"Segoe UI\", Arial",
+        "fontSize": "28px",
+        "color": "rgb(13, 13, 13)"
+      },
+      {
+        "tag": "H2",
+        "text": "Frequently Asked Questions",
+        "fontFamily": "Poppins, \"Poppins Fallback: Segoe UI\", \"Poppins Fallback: Arial\", \"Segoe UI\", Arial",
+        "fontSize": "28px",
+        "color": "rgb(13, 13, 13)"
+      },
+      {
+        "tag": "H2",
+        "text": "Our locations",
+        "fontFamily": "Poppins, \"Poppins Fallback: Segoe UI\", \"Poppins Fallback: Arial\", \"Segoe UI\", Arial",
+        "fontSize": "28px",
+        "color": "rgb(13, 13, 13)"
+      },
+      {
+        "tag": "H3",
+        "text": "New Haven, CT",
+        "fontFamily": "Poppins, \"Poppins Fallback: Segoe UI\", \"Poppins Fallback: Arial\", \"Segoe UI\", Arial, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "20px",
+        "color": "rgb(13, 13, 13)"
+      },
+      {
+        "tag": "H3",
+        "text": "New Haven, CT",
+        "fontFamily": "Poppins, \"Poppins Fallback: Segoe UI\", \"Poppins Fallback: Arial\", \"Segoe UI\", Arial, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "20px",
+        "color": "rgb(13, 13, 13)"
+      },
+      {
+        "tag": "H2",
+        "text": "Get the best experience on our mobile app",
+        "fontFamily": "Poppins, \"Poppins Fallback: Segoe UI\", \"Poppins Fallback: Arial\", \"Segoe UI\", Arial",
+        "fontSize": "20px",
+        "color": "rgb(13, 13, 13)"
+      }
+    ],
+    "navLinks": [
+      {
+        "text": "",
+        "href": "/"
+      },
+      {
+        "text": "Menu",
+        "href": "/menu"
+      },
+      {
+        "text": "Catering",
+        "href": "/catering"
+      },
+      {
+        "text": "Breakfast",
+        "href": "/page/breakfast"
+      },
+      {
+        "text": "Brunch",
+        "href": "/page/brunch"
+      },
+      {
+        "text": "Private Events",
+        "href": "/page/birthdays--space-rentals"
+      },
+      {
+        "text": "Menu",
+        "href": "/menu"
+      },
+      {
+        "text": "Catering",
+        "href": "/catering"
+      },
+      {
+        "text": "Breakfast",
+        "href": "/page/breakfast"
+      },
+      {
+        "text": "Brunch",
+        "href": "/page/brunch"
+      },
+      {
+        "text": "Private Events",
+        "href": "/page/birthdays--space-rentals"
+      },
+      {
+        "text": "Our Story",
+        "href": "/story"
+      },
+      {
+        "text": "Proudly Serving New Haven",
+        "href": "/page/proudly-serving-new-haven"
+      },
+      {
+        "text": "Gift Cards",
+        "href": "https://squareup.com/gift/MLRXY208CEENQ/order"
+      },
+      {
+        "text": "Events",
+        "href": "/events"
+      },
+      {
+        "text": "We're Hiring",
+        "href": "/careers"
+      },
+      {
+        "text": "Press",
+        "href": "/page/press"
+      },
+      {
+        "text": "Contact Us & Locations",
+        "href": "/page/contact-us--locations"
+      },
+      {
+        "text": "Halal at Pistachio",
+        "href": "/page/halal-at-pistachio"
+      },
+      {
+        "text": "Sign in",
+        "href": "/login"
+      },
+      {
+        "text": "Profile",
+        "href": "#"
+      },
+      {
+        "text": "Rewards",
+        "href": "#"
+      },
+      {
+        "text": "Orders",
+        "href": "#"
+      },
+      {
+        "text": "Order online",
+        "href": "/menu?dialogState=orderDetails"
+      },
+      {
+        "text": "Menu",
+        "href": "/menu"
+      },
+      {
+        "text": "Sign in",
+        "href": "/login"
+      },
+      {
+        "text": "Profile",
+        "href": "#"
+      },
+      {
+        "text": "Rewards",
+        "href": "#"
+      },
+      {
+        "text": "Orders",
+        "href": "#"
+      },
+      {
+        "text": "Menu",
+        "href": "/menu"
+      },
+      {
+        "text": "Catering",
+        "href": "/catering"
+      },
+      {
+        "text": "Breakfast",
+        "href": "/page/breakfast"
+      },
+      {
+        "text": "Brunch",
+        "href": "/page/brunch"
+      },
+      {
+        "text": "Private Events",
+        "href": "/page/birthdays--space-rentals"
+      },
+      {
+        "text": "Our Story",
+        "href": "/story"
+      },
+      {
+        "text": "Proudly Serving New Haven",
+        "href": "/page/proudly-serving-new-haven"
+      },
+      {
+        "text": "Gift Cards",
+        "href": "https://squareup.com/gift/MLRXY208CEENQ/order"
+      },
+      {
+        "text": "Events",
+        "href": "/events"
+      },
+      {
+        "text": "We're Hiring",
+        "href": "/careers"
+      },
+      {
+        "text": "Press",
+        "href": "/page/press"
+      },
+      {
+        "text": "Contact Us & Locations",
+        "href": "/page/contact-us--locations"
+      },
+      {
+        "text": "Halal at Pistachio",
+        "href": "/page/halal-at-pistachio"
+      },
+      {
+        "text": "Order online",
+        "href": "/menu?dialogState=orderDetails"
+      },
+      {
+        "text": "Menu",
+        "href": "/menu"
+      },
+      {
+        "text": "Catering",
+        "href": "/catering"
+      },
+      {
+        "text": "Breakfast",
+        "href": "/page/breakfast"
+      },
+      {
+        "text": "Brunch",
+        "href": "/page/brunch"
+      },
+      {
+        "text": "Private Events",
+        "href": "/page/birthdays--space-rentals"
+      },
+      {
+        "text": "Our Story",
+        "href": "/story"
+      },
+      {
+        "text": "Proudly Serving New Haven",
+        "href": "/page/proudly-serving-new-haven"
+      },
+      {
+        "text": "Gift Cards",
+        "href": "https://squareup.com/gift/MLRXY208CEENQ/order"
+      },
+      {
+        "text": "Events",
+        "href": "/events"
+      },
+      {
+        "text": "We're Hiring",
+        "href": "/careers"
+      },
+      {
+        "text": "Press",
+        "href": "/page/press"
+      },
+      {
+        "text": "Contact Us & Locations",
+        "href": "/page/contact-us--locations"
+      },
+      {
+        "text": "Halal at Pistachio",
+        "href": "/page/halal-at-pistachio"
+      }
+    ]
+  }
+}

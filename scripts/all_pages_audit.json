@@ -1,0 +1,135 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "title": "Pistachio Cafe | Best Cafe in New Haven, CT | Cafe near me",
+    "h1": "Best Cafe in New Haven",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/menu",
+    "status": 200,
+    "title": "Menu | Pistachio Cafe | New Haven, CT | Pistachio Cafe",
+    "h1": "Pistachio Cafe Menu (911 Whalley Ave)",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/catering",
+    "status": 200,
+    "title": "Catering & Event Platters | Pistachio Cafe New Haven, CT | Pistachio Cafe",
+    "h1": "Catering from Pistachio Cafe",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/page/breakfast",
+    "status": 200,
+    "title": "Breakfast | Pistachio Cafe | New Haven, CT | Pistachio Cafe",
+    "h1": "Top New Haven Breakfast at Pistachio Cafe",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/page/brunch",
+    "status": 200,
+    "title": "Brunch | Pistachio Cafe | New Haven, CT | Pistachio Cafe",
+    "h1": "Cozy New Haven Brunch and Coffee",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/page/birthdays--space-rentals",
+    "status": 200,
+    "title": "Private Event Rentals & Birthday Parties | Pistachio Cafe New Haven | Pistachio Cafe",
+    "h1": "Private Events & Space Rentals",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/story",
+    "status": 200,
+    "title": "Our Story | Pistachio Cafe | New Haven, CT | Pistachio Cafe",
+    "h1": "Our Story",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/page/proudly-serving-new-haven",
+    "status": 200,
+    "title": "Proudly Serving New Haven | Universities, Hospitals & Community | Pistachio Cafe",
+    "h1": "Proudly Serving New Haven",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/page/halal-at-pistachio",
+    "status": 200,
+    "title": "Halal at Pistachio | 100% Halal Dining in New Haven, CT | Pistachio Cafe",
+    "h1": "100% Halal Dining in New Haven",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/page/press",
+    "status": 200,
+    "title": "Press & Media | Pistachio Cafe | New Haven, CT | Pistachio Cafe",
+    "h1": "Press & Media Highlights",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/page/contact-us--locations",
+    "status": 200,
+    "title": "Contact Us & Locations | Pistachio Cafe New Haven | Pistachio Cafe",
+    "h1": "Contact Us & Locations",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/911-whalley-ave",
+    "status": 200,
+    "title": "Pistachio Cafe 1 | 911 Whalley Ave, Westville, New Haven, CT | Pistachio Cafe",
+    "h1": "Pistachio Cafe — 911 Whalley Ave, New Haven",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/1245-chapel-st",
+    "status": 200,
+    "title": "Pistachio Cafe 2 | 1245 Chapel St, Downtown New Haven, CT | Pistachio Cafe",
+    "h1": "Pistachio Cafe 2 — 1245 Chapel St, New Haven",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/locations",
+    "status": 200,
+    "title": "Locations | Pistachio Cafe | Best Cafe in New Haven, CT | Pistachio Cafe",
+    "h1": "Welcome to Pistachio Cafe Locations",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/careers",
+    "status": 200,
+    "title": "Careers at Pistachio Cafe | Join Our Team | Pistachio Cafe",
+    "h1": "Careers at Pistachio Cafe",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/events",
+    "status": 200,
+    "title": "Events at Pistachio Cafe | Community & Private Gatherings | Pistachio Cafe",
+    "h1": "Upcoming Events at Pistachio Cafe",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/terms",
+    "status": 200,
+    "title": "Terms of Service | Pistachio Cafe | Pistachio Cafe",
+    "h1": "Terms and Conditions",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/privacy",
+    "status": 200,
+    "title": "Privacy Policy | Pistachio Cafe | Pistachio Cafe",
+    "h1": "Pistachio Cafe Privacy Policy",
+    "font": "__Poppins_51684b"
+  },
+  {
+    "route": "/accessibility",
+    "status": 200,
+    "title": "Accessibility Statement | Pistachio Cafe | Pistachio Cafe",
+    "h1": "Accessibility Statement",
+    "font": "__Poppins_51684b"
+  }
+]

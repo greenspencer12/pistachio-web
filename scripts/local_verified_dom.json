@@ -1,0 +1,191 @@
+{
+  "title": "Pistachio Cafe | Best Cafe in New Haven, CT | Cafe near me",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Best Cafe in New Haven",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "60px",
+      "fontWeight": "700",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "H2",
+      "text": "Welcome to Pistachio Cafe!",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "36px",
+      "fontWeight": "700",
+      "color": "rgb(13, 13, 13)"
+    },
+    {
+      "tag": "H2",
+      "text": "Your New Favorite Breakfast Spot in New Haven",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "36px",
+      "fontWeight": "700",
+      "color": "rgb(13, 13, 13)"
+    },
+    {
+      "tag": "H2",
+      "text": "Daily Meals, Always Fresh🌿",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "36px",
+      "fontWeight": "700",
+      "color": "rgb(13, 13, 13)"
+    },
+    {
+      "tag": "H2",
+      "text": "A Coffee Shop for True Coffee Lovers",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "36px",
+      "fontWeight": "700",
+      "color": "rgb(13, 13, 13)"
+    },
+    {
+      "tag": "H2",
+      "text": "Fresh Brunch, Seven Days a Week🍳",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "48px",
+      "fontWeight": "700",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "H2",
+      "text": "Order From Our Website",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "36px",
+      "fontWeight": "700",
+      "color": "rgb(13, 13, 13)"
+    },
+    {
+      "tag": "H2",
+      "text": "Straight from Our Kitchen📸",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "36px",
+      "fontWeight": "700",
+      "color": "rgb(13, 13, 13)"
+    },
+    {
+      "tag": "H2",
+      "text": "Hosting an Event? We’ve Got Catering🎉",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "36px",
+      "fontWeight": "700",
+      "color": "rgb(13, 13, 13)"
+    },
+    {
+      "tag": "H2",
+      "text": "What our guests are saying",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "36px",
+      "fontWeight": "700",
+      "color": "rgb(13, 13, 13)"
+    },
+    {
+      "tag": "H2",
+      "text": "Featuring",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "color": "rgb(13, 13, 13)"
+    },
+    {
+      "tag": "H2",
+      "text": "Pistachio Cafe Rewards",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "36px",
+      "fontWeight": "700",
+      "color": "rgb(13, 13, 13)"
+    },
+    {
+      "tag": "H2",
+      "text": "Frequently Asked Questions",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "36px",
+      "fontWeight": "700",
+      "color": "rgb(13, 13, 13)"
+    },
+    {
+      "tag": "H2",
+      "text": "Our locations",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "36px",
+      "fontWeight": "700",
+      "color": "rgb(13, 13, 13)"
+    },
+    {
+      "tag": "H3",
+      "text": "New Haven, CT",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "color": "rgb(13, 13, 13)"
+    },
+    {
+      "tag": "H3",
+      "text": "New Haven, CT",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "color": "rgb(13, 13, 13)"
+    },
+    {
+      "tag": "H3",
+      "text": "Pistachio 1 (Westville)",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "H3",
+      "text": "Pistachio 2 (Downtown)",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "H3",
+      "text": "QUICK LINKS",
+      "fontFamily": "__Poppins_51684b, __Poppins_Fallback_51684b",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "color": "rgb(255, 255, 255)"
+    }
+  ],
+  "navLinks": [
+    {
+      "text": "Menu",
+      "href": "/menu"
+    },
+    {
+      "text": "Catering",
+      "href": "/catering"
+    },
+    {
+      "text": "Breakfast",
+      "href": "/page/breakfast"
+    },
+    {
+      "text": "Brunch",
+      "href": "/page/brunch"
+    },
+    {
+      "text": "Private Events",
+      "href": "/page/birthdays--space-rentals"
+    },
+    {
+      "text": "Our Story",
+      "href": "/story"
+    },
+    {
+      "text": "100% Halal",
+      "href": "/page/halal-at-pistachio"
+    },
+    {
+      "text": "Gift Cards",
+      "href": "https://squareup.com/gift/MLRXY208CEENQ/order"
+    }
+  ]
+}
