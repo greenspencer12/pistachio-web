@@ -1,5 +1,7 @@
 # System Architecture, Technical Specifications & DOM Fidelity Verification
 
+> **Superseded (2026-09-29):** the rendering and media sections below describe the earlier hand-built pages (`public/mercury.css`, hot-linked Pluto CDN). Pages are now generated verbatim from the live HTML/CSS and all media is self-hosted — see README §3–5 for the current architecture, re-sync steps and verified fidelity results. The Square, routing and kitchen-ticket sections remain the plan of record.
+
 **Codebase:** `pistachio-web`  
 **Framework:** Next.js 14 (App Router) + TypeScript + Tailwind CSS  
 **Target Domain:** `https://pistachiocafe.com/`  

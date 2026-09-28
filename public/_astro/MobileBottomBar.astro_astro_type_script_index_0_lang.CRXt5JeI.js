@@ -1,0 +1,1 @@
+import{t as o}from"./types.BrqeXqyi.js";import{t}from"./deviceFingerprint.C4eOKj2D.js";globalThis.process??={};globalThis.process.env??={};document.getElementById("mobile-bottom-bar-app-button")?.addEventListener("click",()=>{t(o.MOBILE_BOTTOM_BAR)});

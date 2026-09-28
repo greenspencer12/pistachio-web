@@ -43,7 +43,7 @@ For detailed audits, raw client correspondence, architectural blueprints, and ru
   *Full technical data from Owner.com's 12-page report, LocalFalcon 7x7 geo-grid scan, Jumper Local $299 keyword tracking, live Google Search Console API audit, and code-level "smoking guns" (Location 2 Westville copy-paste defect, missing H1s, 20+ thin doorway pages).*
 
 * [**System Architecture & DOM Fidelity Specifications (`docs/SYSTEM_ARCHITECTURE_AND_FIDELITY_SPEC.md`)**](./docs/SYSTEM_ARCHITECTURE_AND_FIDELITY_SPEC.md)  
-  *Headless Next.js 14 architecture, 25-route inventory, Square REST API v2 integration, split kitchen ticket routing, 36 authentic Pluto CDN image UUIDs, and automated DOM verification audit.*
+  *Headless Next.js 14 architecture, 25-route inventory, Square REST API v2 integration, and split kitchen ticket routing plan (its rendering/media sections are superseded — see §3–5 below).*
 
 * [**Zero-Downtime Deployment & DNS Cutover Runbook (`docs/DEPLOYMENT_AND_MIGRATION_RUNBOOK.md`)**](./docs/DEPLOYMENT_AND_MIGRATION_RUNBOOK.md)  
   *Step-by-step GoDaddy DNS cutover instructions, hardware kitchen printer verification protocol, Google Search Console sitemap submission, and formal Owner.com contract cancellation notice.*
@@ -52,73 +52,45 @@ For detailed audits, raw client correspondence, architectural blueprints, and ru
 
 ## 3. Technology Stack
 
-* **Framework:** Next.js 14.2.35 (App Router, Server & Client Components)
-* **Language:** TypeScript 5.x
-* **Styling Engine:** Tailwind CSS 3.4 + Authentic Mercury UI CSS Bundle (`public/mercury.css`)
-* **Typography:** Google Fonts `Poppins` (Weights 400, 500, 600, 700)
-* **Commerce & Payments:** Square Node.js SDK (`square` v37+) & Square Web Payments SDK
-* **Hardware Integration:** Dual-store split kitchen ticket routing (Whalley Ave vs Chapel St)
-* **Calendar Integration:** Google Calendar API / Calendly event reservations
-* **Asset CDN:** Authentic Pluto CDN (`https://pluto.ownercdn.com/`) media pipeline (Zero AI/synthetic images)
-* **Structured Data:** Custom Schema.org JSON-LD engine (`CafeOrCoffeeShop`, `Restaurant`, `PostalAddress`, `GeoCoordinates`)
+* **Framework:** Next.js 14 (App Router), TypeScript
+* **Page rendering:** every route renders the live site's own server HTML and CSS verbatim (`components/LivePage.tsx`), generated from captures in `live_source/raw/` by `scripts/build_from_live.py`. Fonts, styles and layout are therefore the live site's exact Mercury UI output (Poppins headings, system-font body).
+* **Client behaviour:** the live site's own Astro component scripts (navigation, galleries, reviews, hours, menu island, PDF viewer) are mirrored into `public/_astro/`. Third-party trackers (GTM/GA4, Datadog, Cloudflare beacon, Owner analytics) are stripped.
+* **Media (self-hosted, zero Owner.com runtime dependency):**
+  * `/pluto-images/*` - `app/pluto-images/[...path]/route.ts` resizes originals from `media/originals/` (sharp) with the same `w`/`h`/`dpr`/`fit`/`format` parameters Owner's CDN used, cached in `.cache/`
+  * `/pluto-videos/*`, `/static-maps/*`, `/images/*`, `/documents/*.pdf`, `/pdf.worker.min.js` - static files in `public/`
+* **Commerce & Payments (next phase):** Square APIs & Web Payments SDK (`lib/square.ts`)
+* **Structured Data:** the live site's JSON-LD (`structured-location-data`) is carried over verbatim
 
 ---
 
-## 4. Complete Route Directory (25 Prerendered Routes)
+## 4. Route Directory
 
-Every page from the live production site is fully implemented as a clean, static, prerendered route:
+All 20 live routes are generated (see `scripts/routes.js`): `/`, `/locations`, `/menu`, `/menu/1245-chapel-st`, `/911-whalley-ave`, `/1245-chapel-st`, `/catering`, `/page/breakfast`, `/page/brunch`, `/page/birthdays--space-rentals`, `/story`, `/page/proudly-serving-new-haven`, `/events`, `/careers`, `/page/press`, `/page/contact-us--locations`, `/terms`, `/privacy`, `/accessibility`, `/page/halal-at-pistachio`, plus `/robots.txt` and `/sitemap.xml`.
 
-```
-Route (app)                              Type     Size     First Load JS
-┌ ○ /                                    Static   9.6 kB          106 kB
-├ ○ /_not-found                          Static   873 B          88.1 kB
-├ ○ /1245-chapel-st                      Static   187 B          96.1 kB
-├ ○ /911-whalley-ave                     Static   186 B          96.1 kB
-├ ○ /accessibility                       Static   187 B          96.1 kB
-├ ○ /careers                             Static   2.06 kB        89.3 kB
-├ ○ /catering                            Static   1.95 kB        89.2 kB
-├ ○ /events                              Static   187 B          96.1 kB
-├ ○ /locations                           Static   199 B           101 kB
-├ ○ /menu                                Static   139 B          96.5 kB
-├ ○ /menu/1245-chapel-st                 Static   139 B          96.5 kB
-├ ○ /page/birthdays--space-rentals       Static   2.19 kB        89.4 kB
-├ ○ /page/breakfast                      Static   199 B           101 kB
-├ ○ /page/brunch                         Static   199 B           101 kB
-├ ○ /page/contact-us--locations          Static   1.97 kB         103 kB
-├ ○ /page/halal-at-pistachio             Static   199 B           101 kB
-├ ○ /page/press                          Static   294 B          92.7 kB
-├ ○ /page/proudly-serving-new-haven      Static   199 B           101 kB
-├ ○ /privacy                             Static   187 B          96.1 kB
-├ ○ /robots.txt                          Static   0 B                0 B
-├ ○ /sitemap.xml                         Static   0 B                0 B
-├ ○ /story                               Static   199 B           101 kB
-└ ○ /terms                               Static   186 B          96.1 kB
+### Re-syncing with the live site
+
+```bash
+node scripts/capture_raw_html.js live_source/raw   # fetch current live HTML
+python scripts/build_from_live.py                  # regenerate routes + content/live/*.html
+node scripts/mirror_astro_assets.js                # mirror any new /_astro and /images files
+node scripts/mirror_media.js                       # mirror any new images/videos/maps
+node scripts/optimize_originals.js                 # convert new originals to WebP (skips converted)
 ```
 
 ---
 
-## 5. Live DOM Fidelity & Verification Audit
+## 5. Fidelity Verification
 
-An automated headless browser audit comparing `localhost:3000` to `https://pistachiocafe.com/` verified **100% exact fidelity**:
+`scripts/capture_fidelity.js` renders every route on both origins (desktop 1440px and mobile 390px) and records every visible text node with its computed font family/size/weight/line-height/colour/transform, every image (and whether it failed to load), and section geometry. `scripts/geometry_diff.js` compares every element's box and key styles by DOM path.
 
-1. **Headings Hierarchy (14/14 Verbatim Match in Exact Order):**
-   * Section 1: `Welcome to Pistachio Cafe`
-   * Section 1: `Coffee with a Touch of Art`
-   * Section 2: `Proudly Serving New Haven`
-   * Section 3: `Our Story`
-   * Section 4: `Explore Our Menu`
-   * Section 5: `Let’s Brunch`
-   * Section 6: `Locations`
-   * Section 6: `Pistachio Cafe`
-   * Section 6: `Pistachio Cafe 2`
-   * Section 7: `Private Events`
-   * Section 8: `Join Piitachio Cafe Rewards`
-   * Section 9: `Community & Art`
-   * Section 10: `What Our Customers Say`
-   * Section 11: `Order Online for Pickup or Delivery`
-2. **Primary CTAs (8/8 Verbatim Match):** `Order online`, `View menu`, `Explore Our Menu`, `Let’s Brunch`, `Order Now`, `Inquire Now`, `Join Piitachio Cafe Rewards`, `Sign in`.
-3. **Pluto CDN Media Pipeline (36/36 Authentic Assets):** Exact matching UUIDs and alt texts. Zero synthetic or AI images.
-4. **Authentic Styling:** Mercury UI stylesheet (`public/mercury.css`) loaded via `<head>`, replicating all design tokens, shadows, margins, padding, and hover states.
+**Results (2026-09-29, production build vs live, all 20 routes × desktop 1440px + mobile 390px):**
+
+* **Page heights:** identical to the pixel on all 40 route/viewport combinations, except the two menu pages on mobile (see below).
+* **Broken images:** 0 on every page (all media self-hosted).
+* **Text + computed style match 100%** on 15 content pages at both widths, and element-by-element geometry is identical (0 differing elements) on: story, careers, events, catering, brunch, press, contact, birthdays/space rentals, proudly-serving, terms, accessibility (breakfast/halal/privacy differ only in a serialized `auto`-margin string; boxes identical).
+* **Home, /locations, /911-whalley-ave, /1245-chapel-st:** only the footer "popular items" keyword list and the matching FAQ answer differ. The live server re-shuffles these words on every cache fill (two consecutive live captures differ from each other the same way), so no fixed copy can match a given visit.
+* **Menu pages:** all 126/138 items, photos, prices and categories match. Differences are live ordering state that depends on Owner.com's ordering backend (guest session/GraphQL APIs): the mobile "Start order / You're saving 10%+" bar, pickup-time selector and open/closing status text. These are replaced by the Square ordering integration rather than emulated.
+
 
 ---
 

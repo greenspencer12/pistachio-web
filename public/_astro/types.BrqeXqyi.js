@@ -1,0 +1,1 @@
+globalThis.process??={};globalThis.process.env??={};var o={FOOTER_APP_ADOPTION:"footer-app-adoption",IN_STORE_APP_ADOPTION:"in-store-app-adoption",MOBILE_APP_PROMO_MODAL:"mobile-app-promo-modal",MOBILE_BOTTOM_BAR:"mobile-bottom-bar",ORDER_CONFIRMATION_WEB_PAGE:"order-confirmation-web-page"};export{o as t};

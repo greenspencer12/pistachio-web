@@ -1,0 +1,1 @@
+import{Cr as e,Sr as t}from"./en.BijGF3DY.js";globalThis.process??={};globalThis.process.env??={};function u(r,n){return e(2,arguments),t(r).getTime()-t(n).getTime()}var o={ceil:Math.ceil,round:Math.round,floor:Math.floor,trunc:function(n){return n<0?Math.ceil(n):Math.floor(n)}},i="trunc";function s(r){return r?o[r]:o[i]}export{u as n,s as t};

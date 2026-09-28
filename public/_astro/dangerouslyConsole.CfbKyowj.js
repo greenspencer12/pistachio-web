@@ -1,0 +1,1 @@
+globalThis.process??={};globalThis.process.env??={};var s=(...o)=>{console.log(...o)},r=(...o)=>{console.warn(...o)},e=(...o)=>{console.error(...o)},l=(...o)=>{console.debug(...o)};export{r as i,e as n,s as r,l as t};
