@@ -6,6 +6,12 @@
 //   /pluto-images/*                app/pluto-images/[...path]/route.ts over media/originals
 //   /pluto-videos/*, /static-maps/* public/ (scripts/mirror_media.js)
 //   /documents/*.pdf               public/documents
-const nextConfig = {};
+const nextConfig = {
+  // Preview deployments (PREVIEW_NOINDEX=1) must stay out of search results; see app/robots.ts.
+  async headers() {
+    if (process.env.PREVIEW_NOINDEX !== '1') return [];
+    return [{ source: '/:path*', headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] }];
+  },
+};
 
 export default nextConfig;
