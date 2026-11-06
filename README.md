@@ -45,6 +45,9 @@ For detailed audits, raw client correspondence, architectural blueprints, and ru
 * [**System Architecture & DOM Fidelity Specifications (`docs/SYSTEM_ARCHITECTURE_AND_FIDELITY_SPEC.md`)**](./docs/SYSTEM_ARCHITECTURE_AND_FIDELITY_SPEC.md)  
   *Headless Next.js 14 architecture, 25-route inventory, Square REST API v2 integration, and split kitchen ticket routing plan (its rendering/media sections are superseded — see §3–5 below).*
 
+* [**Live-site Re-sync Log, Nov 2026 (`docs/LIVE_SITE_RESYNC_2026-11.md`)**](./docs/LIVE_SITE_RESYNC_2026-11.md)  
+  *What Owner changed, how the 100-page clone is captured, built, served and verified, known differences and open items.*
+
 * [**Zero-Downtime Deployment & DNS Cutover Runbook (`docs/DEPLOYMENT_AND_MIGRATION_RUNBOOK.md`)**](./docs/DEPLOYMENT_AND_MIGRATION_RUNBOOK.md)  
   *Step-by-step GoDaddy DNS cutover instructions, hardware kitchen printer verification protocol, Google Search Console sitemap submission, and formal Owner.com contract cancellation notice.*
 

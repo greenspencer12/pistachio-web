@@ -1,5 +1,7 @@
 # System Architecture, Technical Specifications & DOM Fidelity Verification
 
+> **Superseded (2026-11):** the route inventory, rendering and media sections below describe the earlier hand-built design. The current design (100 captured pages served verbatim by a catch-all route handler) is documented in [`LIVE_SITE_RESYNC_2026-11.md`](./LIVE_SITE_RESYNC_2026-11.md) and README §3–5. The Square sections remain the plan for ordering.
+
 > **Superseded (2026-09-29):** the rendering and media sections below describe the earlier hand-built pages (`public/mercury.css`, hot-linked Pluto CDN). Pages are now generated verbatim from the live HTML/CSS and all media is self-hosted — see README §3–5 for the current architecture, re-sync steps and verified fidelity results. The Square, routing and kitchen-ticket sections remain the plan of record.
 
 **Codebase:** `pistachio-web`  
