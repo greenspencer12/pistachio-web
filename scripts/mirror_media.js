@@ -10,7 +10,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.dirname(__dirname);
-const LIVE_DIR = path.join(ROOT, 'content', 'live');
+const LIVE_DIR = path.join(ROOT, 'content', 'docs');
 const ORIGINALS = path.join(ROOT, 'media', 'originals');
 
 function collect() {

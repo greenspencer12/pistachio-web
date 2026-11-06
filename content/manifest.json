@@ -1,0 +1,158 @@
+{
+ "pages": [
+  "/",
+  "/1245-chapel-st",
+  "/911-whalley-ave",
+  "/accessibility",
+  "/careers",
+  "/catering",
+  "/menu",
+  "/menu/1245-chapel-st",
+  "/menu/911-whalley-ave",
+  "/page/birthdays--space-rentals",
+  "/page/breakfast",
+  "/page/brunch",
+  "/page/contact-us--locations",
+  "/page/halal-at-pistachio",
+  "/page/press",
+  "/page/proudly-serving-new-haven",
+  "/places/amity",
+  "/places/augerville",
+  "/places/beaver-hills",
+  "/places/dixwell",
+  "/places/downtown",
+  "/places/dwight",
+  "/places/east-haven",
+  "/places/east-rock",
+  "/places/edgewood",
+  "/places/hamden",
+  "/places/hill",
+  "/places/newhallville",
+  "/places/orange",
+  "/places/prospect-hill",
+  "/places/spring-glen",
+  "/places/west-haven",
+  "/places/west-river",
+  "/places/west-rock",
+  "/places/westville",
+  "/places/whitneyville",
+  "/places/woodbridge",
+  "/places/wooster-square-mill-river",
+  "/story",
+  "/tags/almond-croissant",
+  "/tags/americano",
+  "/tags/apple-strudel",
+  "/tags/avocado-toast",
+  "/tags/baba-ghanoush",
+  "/tags/baklava",
+  "/tags/breakfast-burrito",
+  "/tags/cakes",
+  "/tags/cappuccino",
+  "/tags/cheesecake",
+  "/tags/chicken-and-waffles",
+  "/tags/chicken-sandwich",
+  "/tags/chicken-shawarma",
+  "/tags/chocolate-croissant",
+  "/tags/coffee",
+  "/tags/cold-brew",
+  "/tags/cortado",
+  "/tags/croissant",
+  "/tags/delivery",
+  "/tags/dessert",
+  "/tags/dinner",
+  "/tags/drip-coffee",
+  "/tags/eclairs",
+  "/tags/espresso",
+  "/tags/falafel",
+  "/tags/falafel-wrap",
+  "/tags/hot-chocolate",
+  "/tags/hummus",
+  "/tags/ice-cream",
+  "/tags/labneh",
+  "/tags/latte",
+  "/tags/lemon-bars",
+  "/tags/london-fog",
+  "/tags/lunch",
+  "/tags/macarons",
+  "/tags/matcha-latte",
+  "/tags/mediterranean-food",
+  "/tags/mexican-mocha",
+  "/tags/mezze-platter",
+  "/tags/milkshakes",
+  "/tags/mocha",
+  "/tags/muffin",
+  "/tags/napoleon",
+  "/tags/omelette",
+  "/tags/panini",
+  "/tags/pastries",
+  "/tags/pecan-pie",
+  "/tags/pie",
+  "/tags/pita-bread",
+  "/tags/red-velvet-cake",
+  "/tags/sandwiches",
+  "/tags/shawarma",
+  "/tags/smoothies",
+  "/tags/steamers",
+  "/tags/tahini",
+  "/tags/takeout",
+  "/tags/teas",
+  "/tags/turkey-sandwich",
+  "/tags/veggie-wrap",
+  "/tags/waffles",
+  "/terms"
+ ],
+ "redirects": {
+  "/about": {
+   "status": 308,
+   "location": "/story"
+  },
+  "/contact": {
+   "status": 302,
+   "location": "/terms#contact"
+  },
+  "/locations": {
+   "status": 307,
+   "location": "/"
+  },
+  "/places/bethany": {
+   "status": 307,
+   "location": "/"
+  },
+  "/places/branford": {
+   "status": 307,
+   "location": "/"
+  },
+  "/places/cheshire": {
+   "status": 307,
+   "location": "/"
+  },
+  "/places/fair-haven": {
+   "status": 307,
+   "location": "/"
+  },
+  "/places/guilford": {
+   "status": 307,
+   "location": "/"
+  },
+  "/places/milford": {
+   "status": 307,
+   "location": "/"
+  },
+  "/places/new-haven": {
+   "status": 308,
+   "location": "/911-whalley-ave"
+  },
+  "/places/north-haven": {
+   "status": 307,
+   "location": "/"
+  },
+  "/privacy": {
+   "status": 308,
+   "location": "/terms"
+  },
+  "/rewards": {
+   "status": 307,
+   "location": "/?legacy-redirect=rewards"
+  }
+ }
+}

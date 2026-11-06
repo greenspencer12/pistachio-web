@@ -1,0 +1,1 @@
+globalThis.process??={};globalThis.process.env??={};var r={ceil:Math.ceil,round:Math.round,floor:Math.floor,trunc:function(n){return n<0?Math.ceil(n):Math.floor(n)}},t="trunc";function u(o){return o?r[o]:r[t]}export{u as t};

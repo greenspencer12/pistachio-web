@@ -1,0 +1,1 @@
+import{s as u,t}from"./react.B0X0Hbaz.js";import{Ot as e,W as o}from"./en.RGF9KKoT.js";globalThis.process??={};globalThis.process.env??={};var a=u(t(),1),l=r=>{const{customerId:s}=o();return(0,a.useMemo)(()=>!r?.slug||!s?null:{account:e(r.slug,s,"account"),rewards:e(r.slug,s,"rewards"),orders:e(r.slug,s,"orders")},[r?.slug,s])};export{l as t};

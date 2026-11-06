@@ -5,12 +5,7 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
 
-const ROUTES = [
-  '/', '/locations', '/menu', '/1245-chapel-st', '/911-whalley-ave', '/menu/1245-chapel-st',
-  '/catering', '/page/breakfast', '/page/brunch', '/page/birthdays--space-rentals', '/story',
-  '/page/proudly-serving-new-haven', '/events', '/careers', '/page/press',
-  '/page/contact-us--locations', '/terms', '/privacy', '/accessibility', '/page/halal-at-pistachio',
-];
+const { ROUTES } = require('./routes');
 
 const [origin, outDir] = process.argv.slice(2);
 const only = process.argv[4] ? process.argv[4].split(',') : null;

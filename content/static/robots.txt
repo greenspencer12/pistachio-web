@@ -1,0 +1,16 @@
+# Agent instructions: https://pistachiocafe.com/agents.md
+# LLM summary: https://pistachiocafe.com/llms.txt
+# Agent discovery (PAP): https://pistachiocafe.com/.well-known/poppy.json
+
+User-agent: *
+Allow: /
+Disallow: /internal/
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Sitemap: https://pistachiocafe.com/sitemap.xml
+
+User-agent: SemrushBot
+Allow: /
+Disallow: /internal/
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Sitemap: https://pistachiocafe.com/sitemap.xml
+crawl-delay: 10

@@ -1,0 +1,1 @@
+globalThis.process??={};globalThis.process.env??={};var s="owner-stable-id",n=t=>{if(typeof document>"u")return null;const o=document.cookie.split(";");for(const r of o){const e=r.trim();if(e.startsWith(t+"="))return e.substring(t.length+1)}return null},i=()=>n(s);export{i as t};

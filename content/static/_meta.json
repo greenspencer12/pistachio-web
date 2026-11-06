@@ -1,0 +1,51 @@
+{
+ "/robots.txt": {
+  "status": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "cacheControl": "public, no-cache",
+  "file": "robots.txt",
+  "bytes": 499
+ },
+ "/sitemap.xml": {
+  "status": 200,
+  "contentType": "text/xml; charset=utf-8",
+  "cacheControl": "public, max-age=60",
+  "file": "sitemap.xml",
+  "bytes": 6739
+ },
+ "/llms.txt": {
+  "status": 200,
+  "contentType": "text/markdown; charset=utf-8",
+  "cacheControl": "public, max-age=60",
+  "file": "llms.txt",
+  "bytes": 1915
+ },
+ "/agents.md": {
+  "status": 200,
+  "contentType": "text/markdown; charset=utf-8",
+  "cacheControl": "public, max-age=60",
+  "file": "agents.md",
+  "bytes": 1946
+ },
+ "/.well-known/poppy.json": {
+  "status": 200,
+  "contentType": "application/json; charset=utf-8",
+  "cacheControl": "public, max-age=60",
+  "file": ".well-known__poppy.json",
+  "bytes": 105
+ },
+ "/events": {
+  "status": 404,
+  "contentType": "text/plain;charset=UTF-8",
+  "cacheControl": "private, no-store",
+  "file": "events",
+  "bytes": 9
+ },
+ "/does-not-exist-404-probe": {
+  "status": 404,
+  "contentType": "text/html",
+  "cacheControl": "private, no-store",
+  "file": "does-not-exist-404-probe",
+  "bytes": 239683
+ }
+}

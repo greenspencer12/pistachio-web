@@ -1,0 +1,1 @@
+import{s,t as o}from"./react.B0X0Hbaz.js";globalThis.process??={};globalThis.process.env??={};var a=s(o(),1),c=Object.defineProperty,u=(e,r)=>c(e,"name",{value:r,configurable:!0});function f(e){const r=a.useRef(e);return a.useEffect(()=>{r.current=e}),a.useMemo(()=>((...t)=>r.current?.(...t)),[])}u(f,"useCallbackRef");export{f as t};

@@ -53,7 +53,7 @@ For detailed audits, raw client correspondence, architectural blueprints, and ru
 ## 3. Technology Stack
 
 * **Framework:** Next.js 14 (App Router), TypeScript
-* **Page rendering:** every route renders the live site's own server HTML and CSS verbatim (`components/LivePage.tsx`), generated from captures in `live_source/raw/` by `scripts/build_from_live.py`. Fonts, styles and layout are therefore the live site's exact Mercury UI output (Poppins headings, system-font body).
+* **Page rendering:** every page is the live site's own server HTML served verbatim by one catch-all route handler (`app/[[...slug]]/route.ts`) from `content/docs/`, generated from captures in `live_source/raw/` by `scripts/build_site.py`. Fonts, styles and layout are therefore the live site's exact Mercury UI output (Poppins headings, system-font body).
 * **Client behaviour:** the live site's own Astro component scripts (navigation, galleries, reviews, hours, menu island, PDF viewer) are mirrored into `public/_astro/`. Third-party trackers (GTM/GA4, Datadog, Cloudflare beacon, Owner analytics) are stripped.
 * **Media (self-hosted, zero Owner.com runtime dependency):**
   * `/pluto-images/*` - `app/pluto-images/[...path]/route.ts` resizes originals from `media/originals/` (sharp) with the same `w`/`h`/`dpr`/`fit`/`format` parameters Owner's CDN used, cached in `.cache/`
@@ -65,16 +65,18 @@ For detailed audits, raw client correspondence, architectural blueprints, and ru
 
 ## 4. Route Directory
 
-All 20 live routes are generated (see `scripts/routes.js`): `/`, `/locations`, `/menu`, `/menu/1245-chapel-st`, `/911-whalley-ave`, `/1245-chapel-st`, `/catering`, `/page/breakfast`, `/page/brunch`, `/page/birthdays--space-rentals`, `/story`, `/page/proudly-serving-new-haven`, `/events`, `/careers`, `/page/press`, `/page/contact-us--locations`, `/terms`, `/privacy`, `/accessibility`, `/page/halal-at-pistachio`, plus `/robots.txt` and `/sitemap.xml`.
+`live_source/manifest.json` (written by `scripts/capture_site.js`) lists every live route: 100 real pages (home, menu, per-location menus, both locations, catering, story, careers, `/page/*`, 22 `/places/*` neighbourhood pages, ~56 `/tags/*` pages, terms, accessibility), 13 redirects (e.g. `/about`→`/story`, `/privacy`→`/terms`, `/locations`→`/`, `/places/new-haven`→`/911-whalley-ave`) and the styled 404. `/events` is a plain-text 404 on live and here. `robots.txt`, `sitemap.xml`, `llms.txt`, `agents.md` and `.well-known/poppy.json` are captured in `content/static/`. With `PREVIEW_NOINDEX=1` robots.txt disallows everything and every response carries `X-Robots-Tag: noindex, nofollow`.
 
 ### Re-syncing with the live site
 
 ```bash
-node scripts/capture_raw_html.js live_source/raw   # fetch current live HTML
-python scripts/build_from_live.py                  # regenerate routes + content/live/*.html
-node scripts/mirror_astro_assets.js                # mirror any new /_astro and /images files
-node scripts/mirror_media.js                       # mirror any new images/videos/maps
-node scripts/optimize_originals.js                 # convert new originals to WebP (skips converted)
+node scripts/discover_routes.js                    # find routes from sitemap + links
+node scripts/capture_site.js live_source/raw       # raw HTML, redirects, 404s -> manifest.json
+node scripts/capture_static.js                     # robots/sitemap/llms/agents/poppy + 404 body
+python scripts/build_site.py                       # content/docs/*.html + content/manifest.json
+node scripts/mirror_astro_assets.js                # new /_astro and /images files
+node scripts/mirror_media.js                       # new images/videos/maps
+node scripts/optimize_originals.js                 # convert new originals to WebP
 ```
 
 ---
@@ -83,7 +85,7 @@ node scripts/optimize_originals.js                 # convert new originals to We
 
 `scripts/capture_fidelity.js` renders every route on both origins (desktop 1440px and mobile 390px) and records every visible text node with its computed font family/size/weight/line-height/colour/transform, every image (and whether it failed to load), and section geometry. `scripts/geometry_diff.js` compares every element's box and key styles by DOM path.
 
-**Results (2026-09-29, production build vs live, all 20 routes × desktop 1440px + mobile 390px):**
+**Earlier results (2026-09-29, 20 routes; the 2026-11 re-sync covers all 100 pages and is compared with `scripts/compare_fidelity.js`; remaining differences are live-only ordering-backend links, intermittent live variants and the shuffled keyword list), all 20 routes × desktop 1440px + mobile 390px):**
 
 * **Page heights:** identical to the pixel on all 40 route/viewport combinations, except the two menu pages on mobile (see below).
 * **Broken images:** 0 on every page (all media self-hosted).

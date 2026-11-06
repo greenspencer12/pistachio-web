@@ -7,10 +7,10 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.dirname(__dirname);
-const LIVE_DIR = path.join(ROOT, 'content', 'live');
+const LIVE_DIR = path.join(ROOT, 'content', 'docs');
 const OUT = path.join(ROOT, 'public');
 
-const REF = /\/(?:_astro|images)\/[A-Za-z0-9_.@\-]+\.(?:js|css|woff2?|ttf|svg|png|jpe?g|webp|avif)/g;
+const REF = /\/(?:_astro|images)\/[A-Za-z0-9_.@\-]+\.(?:js|mjs|wasm|css|woff2?|ttf|svg|png|jpe?g|webp|avif)/g;
 // Relative imports inside chunks, e.g. from"./client.abc.js" or import("./x.js")
 const REL = /["'`]\.\/([A-Za-z0-9_.@\-]+\.(?:js|css))["'`]/g;
 

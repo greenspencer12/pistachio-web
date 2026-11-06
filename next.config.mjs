@@ -7,7 +7,7 @@
 //   /pluto-videos/*, /static-maps/* public/ (scripts/mirror_media.js)
 //   /documents/*.pdf               public/documents
 const nextConfig = {
-  // Preview deployments (PREVIEW_NOINDEX=1) must stay out of search results; see app/robots.ts.
+  // Preview deployments (PREVIEW_NOINDEX=1) must stay out of search results (the catch-all route handler also sets this header and serves a disallow-all robots.txt).
   async headers() {
     if (process.env.PREVIEW_NOINDEX !== '1') return [];
     return [{ source: '/:path*', headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] }];
