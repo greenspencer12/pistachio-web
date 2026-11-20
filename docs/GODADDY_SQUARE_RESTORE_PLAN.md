@@ -178,3 +178,9 @@ Both sections were switched to the layout "Feature categories with images" (2-co
 ### Brunch photos (2026-11-20, draft only, nothing published)
 - Brunch page (a67a3f1e-...), 4-card section: switched to "Feature categories with images" and placed Owner's photos with alt text: card 1 `c77365b9`, card 2 `0e7c5d1c` (salmon tartine), card 3 `183afef8`, card 4 `c7cff23c`. Text unchanged. Existing hero photo and menu image on the page were left as they were.
 - Remaining pages without photos: Halal (4), Birthdays (14), Press (8), Proudly Serving (6), Catering (5). Same method: switch section layout, add photo per card, alt text. Birthdays, Press and Catering are not the 4-card pattern and need a look first.
+
+### Halal and Proudly Serving photos (2026-11-20, draft only, nothing published)
+- **Halal** page (f88eb78c-...): switched to "Feature categories with images". Card 2 `c4acae56`, card 4 `acf6a2f3` (latte), card 5 `2cd974cf` (wraps), with alt text. Card 1's image was Owner's Pistachio logo (`b17850ac`), not a photo, so it was removed. Stock placeholder photos were removed from cards 3 and 6 (no Owner photo exists for them). Text unchanged.
+- **Proudly Serving New Haven** page (8895a717-...): 3-column "Feature categories with images" layout, square photos, alt text on every card. Cards 1-6: `c01997e5`, `a0f300de`, `2a901f3f`, `03935411`, `d014e068`, `018b4fc6`. Text unchanged.
+- Remaining without photos: Birthdays (14), Press (8), Catering (5); they are not the plain 4-card pattern and need a look first. Still to re-check visually: Brunch cards 3-4 and Halal alt text.
+- Nothing was published; Owner, Square and DNS untouched.
