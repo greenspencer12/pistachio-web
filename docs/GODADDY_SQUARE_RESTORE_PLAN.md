@@ -167,3 +167,10 @@ Photos are already saved in the clone repo `pistachio-web` under `media/original
 - Breakfast page: the section's current layout is text-only, so card photos do not render. Uploaded `d5436d50-...` (Avocado Toast Tartine, converted to JPG as `pistachio-avocado-toast-tartine-new-haven.jpg`) to Mohamad's GoDaddy media library and attached it to the "Best Avocado Toast Tartine" card; it is not visible on the page in this layout.
 - To show photos, Mohamad (or we, on his OK) must switch that section to an image-capable layout or add an image/gallery section; this changes the page design, so it was left as a decision.
 - Other photos in the list above were not uploaded. Nothing was published; Owner and Square untouched.
+
+### Images placed in the GoDaddy draft (2026-11-20, draft only, nothing published)
+Both sections were switched to the layout "Feature categories with images" (2-column cards, square photos). All text was re-checked after the change and is unchanged. Photos are Owner's own (from `media/originals/funnel/images`, converted to JPG for upload), with alt text added.
+- **Breakfast** (page 1c651d0c-...): card 1 exterior `438a9a34`; card 2 avocado toast `d5436d50`; card 3 Arabic coffee `8a3093a4`; card 4 cozy mornings `63cba147`. Owner's YouTube video `EYx6P8TPI2c` is not embedded.
+- **Our Story** (page 1451d848-...): card 2 "A Menu Experience Like No Other" `7d118de9`; card 3 "What Makes Pistachio Special" `842efd27`. Cards 1 and 4 have no Owner photo, so the placeholder stock photos were removed (text only).
+- Not yet done: photos for Brunch, Halal, Birthdays, Press, Proudly Serving, Catering (see list above); same steps apply (change section layout, add photo per card, alt text). Uploaded images also sit in Mohamad's GoDaddy media library.
+- Nothing was published; Owner, Square and DNS untouched.
