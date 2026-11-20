@@ -251,3 +251,9 @@ Compared Owner's pages (`content/docs/page__birthdays--space-rentals.html`, `cat
 - GoDaddy adds new uploads at the front of a gallery, so the gallery was cleared and re-added in two batches (supporting shots first, then the nine lead photos). Only gallery membership changed; the media library keeps duplicate copies, which is harmless.
 - Alt text ("Image Description") written for all 14 slides, e.g. "Pistachio cake and cappuccino at Pistachio Cafe in New Haven". Verified after a reload that the text and order persisted.
 - Breakfast & Brunch gallery untouched. Draft only. Nothing published; Owner, Square and DNS untouched.
+
+### Home page: extended hours, take-it-to-go and Catering removed, Guest Favorites added (2026-11-20)
+- Removed on the user's instruction: the "Or take it to go!" section and the "Hosting an Event? We've Got Catering" card (the separate Catering page and nav link remain).
+- Evening gallery title is now "Evening Coffee & Desserts: Open Late, Until 9 PM and 10:30 PM Fri & Sat". Source: the Owner location pages list 7 AM to 9 PM daily and 7 AM to 10:30 PM Fri/Sat; the Ads docs (27, 29, 39) plan a 10:30 PM Fri/Sat close. **Mohamad must confirm these hours (and whether both locations match) before publishing.**
+- New "Guest Favorites" Menu / Price List section after the Evening gallery, copied from the live Square menu (menu.pistachiocafe.com highlights): Pistachio Latte $6.55-$6.95, Cream Croissant $5.55, Baklava Box 4 pc $10.95, Chicken Shawarma Wrap $17.95, Chocolate Temptation Cake $8.50-$115.00. Prices are a snapshot; recheck at review.
+- Draft only. Nothing published; Owner, Square and DNS untouched.
