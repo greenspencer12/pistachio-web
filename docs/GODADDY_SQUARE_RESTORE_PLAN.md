@@ -210,3 +210,8 @@ Compared Owner's pages (`content/docs/page__birthdays--space-rentals.html`, `cat
 - New "Our locations" text section after the FAQ: 911 Whalley Ave and 1245 Chapel St with phone numbers and hours copied from Owner. No map or per-location buttons (GoDaddy's Contact section shows only one business address; the Order Online page is not selectable as a page link).
 - During the edit I briefly overwrote the Catering Request form title and restored it ("Planning an Event? Let's Make It Easy.").
 - Draft only. Nothing published; Owner, Square and DNS untouched. Old Catering blocks untouched.
+
+### Birthdays heading and intro (2026-11-20)
+- Owner's Private Events page has no "Let us plan your events / birthdays!" heading; its title is "Private Events & Dining in New Haven" over "The Perfect Setting for Every Occasion". The draft Introduction section already carried both; the hero gallery's old "LET US PLAN YOUR EVENTS / BIRTHDAYS!" title was removed (cleared) so the heading is not duplicated.
+- Introduction text now: Owner's first paragraph (through "...coffee and hospitality.") plus "Email info@pistachionhv.com for more info." GoDaddy's field caps near 330 characters, so Owner's last two sentences ("Choose from intimate private rooms or larger event spaces. Catering and event packages are customized...") do not fit.
+- Draft only. Nothing published; Owner, Square and DNS untouched.
