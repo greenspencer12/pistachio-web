@@ -92,3 +92,73 @@ Known limits of GoDaddy Website Builder: no dropdown/date form fields, limited r
 
 - 2026-11-20, buttons and ordering (GoDaddy draft only, nothing published): Home section "Pistachio Cafe in New Haven" now sits above Reviews (order: new section, Reviews, Privacy Policy) and has three buttons: "Explore Our Menu" and "Order Now" (both open https://menu.pistachiocafe.com) and "Inquire Now" (opens the Catering page). Halal at Pistachio page: "Order Halal Online" on the first group (https://menu.pistachiocafe.com) and "Halal Catering" on the "Craveable Menu Favorites & Halal Catering" group (Catering page). Owner's "Visit Us Today" button on the Halal page is not added. Re-checked after reloads: all five buttons present. Photos for the Breakfast and Our Story pages were NOT added (the new pages are text-only); to be done by hand later or with Mohamad's photo choices.
 - Final verification, same day: live pistachiocafe.com is still Owner's site ("Powered by Owner", Owner's title, none of the draft content); menu.pistachiocafe.com still has its old title and empty description (staged Square SEO not published); the GoDaddy draft was never published and DNS was not touched; the Appointments category rename is the only live-on-save change, together with nothing else.
+
+## Owner image placement list (added 2026-11-20)
+
+Photos are already saved in the clone repo `pistachio-web` under `media/originals/funnel/images/<id>` (no extension; they are Owner-hosted images captured before cancellation). Reuse these files when placing photos in the GoDaddy draft. Logo `5e40041a-...` is the header logo on every page and is skipped below. Nothing was uploaded to GoDaddy; Mohamad or we place them later as drafts.
+
+### Breakfast
+- `438a9a34-2bc5-489d-b46f-cd34eb251f2d` (saved): Exterior view of Pistachio restaurant, a brick building with large windows and a prominent sign.
+- `6ef54b1a-ed16-478f-acce-a7ac8a9bc777` (saved): Pistachio restaurant interior with a neon sign, floral wall decor, brown booths, and a dessert display.
+- `2000e506-096d-4511-b014-f8ba27f8ff02` (saved): Pistachio restaurant exterior with outdoor seating, blue umbrellas, and potted plants on a sunny day.
+- `d5436d50-6f57-46e3-828b-ed480d8b4af1` (saved): The Best Avocado Toast Tartine in New Haven
+- `8a3093a4-4447-4e0b-8dcf-4834771ea2f2` (saved): Taste New Haven’s Arabic Coffee
+- `63cba147-e7a6-496b-97e1-85837697b5f3` (saved): Cozy Mornings at Pistachio Cafe
+- YouTube video: https://www.youtube.com/watch?v=EYx6P8TPI2c
+
+### Our Story
+- `7d118de9-5d62-4ad9-8629-f2764bb917cd` (saved): A Menu Experience Like No Other 🍽️
+- `842efd27-ae46-4dbd-8093-d6a6be69e344` (saved): What Makes Pistachio Special 🌟
+
+### Brunch
+- `c77365b9-a0ed-4236-b8e3-cf19524d0304` (saved): Cozy New Haven Brunch and Coffee
+- `0e7c5d1c-8716-456a-8d13-6365597c3210` (saved): The Best Salmon Tartine in New Haven
+- `183afef8-8a65-488a-870c-9673937904e2` (saved): Lively Weekend Mornings at Pistachio Cafe
+- `c7cff23c-f1f4-457e-8901-87fc6cc9af9c` (saved): Modern Mediterranean Brunch Plates in New Haven
+
+### Halal
+- `b17850ac-9458-482b-8639-51b33c6981d0` (saved): Fresh. Delicious. Halal. Welcome to Pistachio Cafe
+- `c4acae56-08d5-483c-8c46-67eac890149c` (saved): 100% Halal. Dine with Total Peace of Mind
+- `acf6a2f3-738e-4ff9-9665-e3d2f3308b0c` (saved): Gather for Halal Brunch & Yemeni Coffee
+- `2cd974cf-3516-4fed-829d-8b2c3b9de65f` (saved): Craveable Menu Favorites & Halal Catering
+
+### Birthdays
+- `afd4ef9e-68af-423b-ac11-955992121710` (saved): Private Events & Dining in New Haven
+- `051eb2aa-b4a0-4ed6-8178-912054214da1` (saved): The Perfect Setting for Every Occasion
+- `e14747a1-68e1-42ee-b4ba-9f1c1d76e814` (saved): Pistachio 1 Full Dining Hall Reservation
+- `8944ec21-b4d3-473e-97f2-f763b842a21b` (saved): Pistachio 1 Salon Reservation
+- `d08bef05-1abc-438b-a140-eadf0a6dc66d` (saved): Pistachio 2 – Private Majlis
+- `9ebedd9c-bbe7-415c-b236-f7ae7521cb33` (saved): Cappuccino topped with rose petals and flaky pastries on a café table beside ornate décor and a velvet sofa.
+- `d4c7b0aa-6bf7-41dd-8bc9-67b99d73082c` (saved): Luxurious restaurant dining room with ornate stained-glass windows, patterned red seating, gold decor, crystal chandelier, and fully set tab
+- `0288a106-54bb-4c2b-b2d9-86ab2645f999` (saved): Ornate peacock artwork hangs above a green tufted restaurant booth and marble table with a small vase of pink flowers.
+- `b336a6e9-30f4-4cc6-a125-80beb3839433` (saved): Ornate restaurant dining room with a crystal chandelier, floral mural, patterned cushions, red banquette seating, and set tables.
+- `a51a243f-8e17-4d3c-b87a-b3d7037a55c6` (saved): Elegant restaurant lounge with classical busts on a black marble table, antique sofa, lamps, and arched illuminated wall niches.
+- `7541d3cc-fb04-4200-833c-0f5b640ce323` (saved): Cappuccino on a saucer beside a floral chair in an elegant café lounge with chandeliers, sofas, and a glass skylight.
+- `1dc8d7b7-f387-44d1-89ca-838d6621f683` (saved): Coffee topped with foam and rose petals on a marble table in an elegant restaurant lounge with flowers, chandelier, and ornate furnishings.
+- `07c786f9-eb2f-4217-a2ad-109b92b347b2` (saved): Restaurant entrance with pink lilies, ornate wall logo, dark dining booths, and a glowing Pistachio neon sign.
+- `3c09d2cb-7114-45c7-8151-5b47a01bd430` (saved): Coffee and decorated pastries sit on a café table overlooking a warmly lit bakery counter and chalkboard menu.
+
+### Press
+- `d1f7aaa5-c6b6-456b-aaf3-cf4c3a3bd7a3` (saved): Hafez Continues Artistic Mission in Latest Venture
+- `223e3770-a8ce-49b0-b489-09e3175ce37a` (saved): Syrian Artist-Owned Café Aims to Be Community Hub
+- `8baa7bc5-6c28-4f19-a42d-ed2173dd2a66` (saved): New Coffee Shop Brings Majlis To Westville
+- `489b780c-7ad4-4ec0-87b4-bf05bfa5c62a` (saved): Pistachio Prepares a Sweet Opening In Westville
+- `de774d6c-9105-49af-a75f-55e8cd537261` (saved): Delicacy, and Delicacies
+- `97df7df6-daca-4294-84c9-7014446b51b0` (saved): Pistachio Cafe Offers Taste of Syrian Owner's Home
+- `5cc7b247-413d-41a1-b478-61886f592292` (saved): Syria to New Haven: Artist’s Salon Bridges Divides
+- `ed03e7b2-4cdb-492a-bb15-692cf6954ee8` (saved): Syrian Artist Opens Cafe in New Haven
+
+### Proudly Serving
+- `c01997e5-9d8f-4439-95a0-a672b615889c` (saved): Fresh Convenient Dining in the Heart of New Haven
+- `a0f300de-5e87-4c36-b57c-453ba3b51298` (saved): Serving New Haven’s Leading Universities
+- `2a901f3f-a190-43a1-af3f-a11149bd6cfd` (saved): Fueling New Haven’s Hospitals & Healthcare Workers
+- `03935411-4ed2-4153-91e7-83d045824e14` (saved): Why New Haven Chooses Pistachio Cafe
+- `d014e068-0398-483e-b089-e402e41fd3a7` (saved): Rich Middle Eastern Brunch & Yemeni Coffee
+- `018b4fc6-9ae6-4223-bda2-33340cab264d` (saved): Two Convenient New Haven Locations
+
+### Catering
+- `a1771d7b-2839-4e24-904d-262a77f42fc5` (saved): Pistachio Catering for Every Occasion
+- `9a9ee18f-46f7-4790-9f17-025be441870a` (saved): Make Your Connecticut Event Unforgettable
+- `7e9d9406-949e-4ac2-a94e-f2cca218c6f9` (saved): A platter of grilled sandwiches and falafel wraps garnished with cherry tomatoes and cucumber slices.
+- `1395245d-cfef-445d-ab30-d998ec878455` (saved): A black platter filled with various Middle Eastern sweets, including sesame cookies, halva, and Turkish delight.
+- `98f3c29b-5d1c-4cc8-85bf-ada7ab9f5209` (saved): A black segmented tray filled with various colorful macarons and Turkish delights.
