@@ -204,3 +204,9 @@ Compared Owner's pages (`content/docs/page__birthdays--space-rentals.html`, `cat
 - Added per-image alt text (Image Description) to all 9 photos in the new "A Beloved Space" gallery on the GoDaddy Birthdays page draft.
 - Draft only. Nothing published; Owner, Square and DNS untouched.
 - Still open: Birthdays heading/intro wording, Catering second "Order catering now" button, locations block and quoted reviews. Old Catering blocks left in place by instruction.
+
+### Catering locations and second order button (2026-11-20)
+- GoDaddy Catering draft: new "Order Catering Today" section after "Cafe Catering for Every Occasion" with an "Order catering now" button linked to the Catering page, "Catering Request" section (Owner's #catering-form equivalent).
+- New "Our locations" text section after the FAQ: 911 Whalley Ave and 1245 Chapel St with phone numbers and hours copied from Owner. No map or per-location buttons (GoDaddy's Contact section shows only one business address; the Order Online page is not selectable as a page link).
+- During the edit I briefly overwrote the Catering Request form title and restored it ("Planning an Event? Let's Make It Easy.").
+- Draft only. Nothing published; Owner, Square and DNS untouched. Old Catering blocks untouched.
