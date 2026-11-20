@@ -174,3 +174,7 @@ Both sections were switched to the layout "Feature categories with images" (2-co
 - **Our Story** (page 1451d848-...): card 2 "A Menu Experience Like No Other" `7d118de9`; card 3 "What Makes Pistachio Special" `842efd27`. Cards 1 and 4 have no Owner photo, so the placeholder stock photos were removed (text only).
 - Not yet done: photos for Brunch, Halal, Birthdays, Press, Proudly Serving, Catering (see list above); same steps apply (change section layout, add photo per card, alt text). Uploaded images also sit in Mohamad's GoDaddy media library.
 - Nothing was published; Owner, Square and DNS untouched.
+
+### Brunch photos (2026-11-20, draft only, nothing published)
+- Brunch page (a67a3f1e-...), 4-card section: switched to "Feature categories with images" and placed Owner's photos with alt text: card 1 `c77365b9`, card 2 `0e7c5d1c` (salmon tartine), card 3 `183afef8`, card 4 `c7cff23c`. Text unchanged. Existing hero photo and menu image on the page were left as they were.
+- Remaining pages without photos: Halal (4), Birthdays (14), Press (8), Proudly Serving (6), Catering (5). Same method: switch section layout, add photo per card, alt text. Birthdays, Press and Catering are not the 4-card pattern and need a look first.
