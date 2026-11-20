@@ -162,3 +162,8 @@ Photos are already saved in the clone repo `pistachio-web` under `media/original
 - `7e9d9406-949e-4ac2-a94e-f2cca218c6f9` (saved): A platter of grilled sandwiches and falafel wraps garnished with cherry tomatoes and cucumber slices.
 - `1395245d-cfef-445d-ab30-d998ec878455` (saved): A black platter filled with various Middle Eastern sweets, including sesame cookies, halva, and Turkish delight.
 - `98f3c29b-5d1c-4cc8-85bf-ada7ab9f5209` (saved): A black segmented tray filled with various colorful macarons and Turkish delights.
+
+### Image upload attempt (2026-11-20, draft only, nothing published)
+- Breakfast page: the section's current layout is text-only, so card photos do not render. Uploaded `d5436d50-...` (Avocado Toast Tartine, converted to JPG as `pistachio-avocado-toast-tartine-new-haven.jpg`) to Mohamad's GoDaddy media library and attached it to the "Best Avocado Toast Tartine" card; it is not visible on the page in this layout.
+- To show photos, Mohamad (or we, on his OK) must switch that section to an image-capable layout or add an image/gallery section; this changes the page design, so it was left as a decision.
+- Other photos in the list above were not uploaded. Nothing was published; Owner and Square untouched.
