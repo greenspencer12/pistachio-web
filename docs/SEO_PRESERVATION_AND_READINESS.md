@@ -36,9 +36,10 @@ Action for Mohamad at cutover: before DNS moves, check each GoDaddy page's slug 
 - [x] 911 Whalley Ave page: Westville lounge photo and alt text added.
 - [x] Header "ORDER ONLINE" link changed to https://menu.pistachiocafe.com/s/order.
 - [x] "Our Story" page renamed "Story" so its slug should become /story (matches Owner). Verify in preview after cutover.
-- [ ] Confirm one H1 per page and alt text on images.
+- [x] Home page content images (Story x2, Visit Us x2) now have alt text, verified after reload. Menu-item thumbnails in the Guest Favorites section show no alt in the editor; GoDaddy sets those from the item, unverified.
+- [ ] H1 check: the Home editor shows the same H1 twice (likely the editor's desktop/mobile copy); confirm on the published preview. Other pages not individually checked.
 - [ ] Confirm hours (7 AM open) and closing times with Mohamad.
-- [ ] Square Online SEO review (site title, item titles, descriptions, location pages): not yet reviewed.
+- [x] Square Online SEO fixed and staged (not published): site social title; Order Online page title, description and social title. Takes effect only when Mohamad publishes Square.
 - [ ] After cutover (Mohamad): submit the GoDaddy sitemap in Google Search Console, update Google Business Profile website links, re-run Rich Results Test, check Search Console coverage for 404s, reconnect social.
 - [ ] Structured data (LocalBusiness/Restaurant schema with both addresses): GoDaddy generates basic schema only; custom JSON-LD needs a header-code option, not yet confirmed.
 
@@ -59,7 +60,8 @@ GoDaddy has no slug field. Page Settings only has Page Title, and the URL is bui
 
 - menu.pistachiocafe.com/ has a good title and meta description, but og:title is "Personalized order screen".
 - menu.pistachiocafe.com/s/order has an old title ("Unique Cafe serving Syrian Coffee, Turkish Delights, Baklava & Brunch!"), no meta description, and og text that mentions "Turkish Delights", which differs from the main site wording. No canonical tag seen.
-- Fix in the Square dashboard (Website > SEO): set the order page title and description to match the main site, fix the og title. Not changed in this pass; Mohamad or the Square login holder should confirm before publishing.
+- FIXED 2026-11-20 in the Square dashboard and left unpublished (autosaved): order page title/description now "Order Online | Pistachio Cafe New Haven, CT" with the matching description; site social title updated. Live pages keep the old text until Mohamad publishes.
+- Square has a URL Redirects feature (Website > SEO) for 301s inside menu.pistachiocafe.com only; it cannot redirect the main-domain pages.
 - Square item pages are only indexed if Square lists them in its sitemap; check after cutover.
 
 ## Square Online (earlier note)

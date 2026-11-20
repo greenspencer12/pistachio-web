@@ -285,3 +285,5 @@ All edits are GoDaddy DRAFT only; nothing published, Owner untouched.
 - Findings and URL map: docs/SEO_PRESERVATION_AND_READINESS.md. Nothing published; DNS untouched.
 
 - 2026-11-20 (later): built 1245 Chapel St draft page (title, description, photo, alt text); Whalley page photo set; "Our Story" renamed "Story" for /story; header Order Online link set to https. Square public SEO gaps recorded in docs/SEO_PRESERVATION_AND_READINESS.md. Nothing published; DNS untouched.
+
+- 2026-11-20 (pass 3): Square SEO staged (order page title/description, social titles; unpublished). Home content images given alt text and verified after reload. Still open: Birthdays space-card photos, Catering map/quoted reviews, Press date off by one, Featuring badges, per-page H1 check on preview.
