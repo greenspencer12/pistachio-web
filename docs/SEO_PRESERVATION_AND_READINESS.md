@@ -32,9 +32,10 @@ Action for Mohamad at cutover: before DNS moves, check each GoDaddy page's slug 
 
 - [x] Per-page titles and descriptions written for all 14 draft pages, including replacing the Owner spam home title.
 - [x] New draft page "911 Whalley Ave" with its own title and description.
-- [ ] "1245 Chapel St" page (copy: 1245 Chapel St, New Haven, CT 06511, 203.800.4533, near Yale).
-- [ ] Replace the stock coffee photo on the 911 Whalley Ave page with the Westville lounge photo, with alt text.
-- [ ] Header "ORDER ONLINE" link: change http to https://menu.pistachiocafe.com/s/order.
+- [x] "1245 Chapel St" draft page built (1245 Chapel St, CT 06511, 203.800.4533) with its own title, description, dining-room photo and alt text.
+- [x] 911 Whalley Ave page: Westville lounge photo and alt text added.
+- [x] Header "ORDER ONLINE" link changed to https://menu.pistachiocafe.com/s/order.
+- [x] "Our Story" page renamed "Story" so its slug should become /story (matches Owner). Verify in preview after cutover.
 - [ ] Confirm one H1 per page and alt text on images.
 - [ ] Confirm hours (7 AM open) and closing times with Mohamad.
 - [ ] Square Online SEO review (site title, item titles, descriptions, location pages): not yet reviewed.
@@ -47,6 +48,20 @@ Action for Mohamad at cutover: before DNS moves, check each GoDaddy page's slug 
 - Owner's per-location landing pages and tag/places pages have no GoDaddy equivalent.
 - The 301 limitation above.
 
-## Square Online
+## Slugs: what GoDaddy allows
+
+GoDaddy has no slug field. Page Settings only has Page Title, and the URL is built from the title. So a slug can only be matched by renaming the page.
+- Matched: /catering, /911-whalley-ave, /1245-chapel-st, /story (renamed from Our Story).
+- Cannot be matched: Owner's /page/* URLs (brunch, breakfast, press, contact-us--locations, birthdays--space-rentals, halal-at-pistachio, proudly-serving-new-haven). GoDaddy cannot add a /page/ prefix, and there is no redirect tool. These URLs will 404 after cutover.
+- Check the real slugs in the GoDaddy preview before cutover; the editor does not display them.
+
+## Square Online findings (public pages, read-only check 2026-11-20)
+
+- menu.pistachiocafe.com/ has a good title and meta description, but og:title is "Personalized order screen".
+- menu.pistachiocafe.com/s/order has an old title ("Unique Cafe serving Syrian Coffee, Turkish Delights, Baklava & Brunch!"), no meta description, and og text that mentions "Turkish Delights", which differs from the main site wording. No canonical tag seen.
+- Fix in the Square dashboard (Website > SEO): set the order page title and description to match the main site, fix the og title. Not changed in this pass; Mohamad or the Square login holder should confirm before publishing.
+- Square item pages are only indexed if Square lists them in its sitemap; check after cutover.
+
+## Square Online (earlier note)
 
 The menu lives on menu.pistachiocafe.com (a subdomain), so it ranks separately from the main site. Its staged SEO was saved earlier but unpublished; a fresh review of titles, descriptions and indexability is still outstanding.

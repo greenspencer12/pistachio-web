@@ -283,3 +283,5 @@ All edits are GoDaddy DRAFT only; nothing published, Owner untouched.
 - New draft page "911 Whalley Ave" with its own SEO title and description (Show in Navigation off, Footer on). Still needs the Westville photo.
 - Still to do: 1245 Chapel St page, https on the header Order Online link, Square SEO review.
 - Findings and URL map: docs/SEO_PRESERVATION_AND_READINESS.md. Nothing published; DNS untouched.
+
+- 2026-11-20 (later): built 1245 Chapel St draft page (title, description, photo, alt text); Whalley page photo set; "Our Story" renamed "Story" for /story; header Order Online link set to https. Square public SEO gaps recorded in docs/SEO_PRESERVATION_AND_READINESS.md. Nothing published; DNS untouched.
