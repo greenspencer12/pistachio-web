@@ -245,3 +245,9 @@ Compared Owner's pages (`content/docs/page__birthdays--space-rentals.html`, `cat
 - New gallery "Evening Coffee & Desserts" added directly after it (slideshow, Full Width on, same as Brunch), 14 photos: Mohamad's real photos (baklava stack, pistachio cake with cappuccino, "Pistachio" latte art with tartlets, two lattes, pistachio cake with flowers, latte art with croissant, berry waffle, milkshakes, latte with dessert tray, two interiors) plus the baklava platter, baklava tower and rose latte with baklava. Resized to 1600 px on the long side.
 - Left out on purpose: refresher/cocktail drinks (the user removed the drinks-only grid), "Happy Birthday" plate, New Hours graphics, and text-labelled shots.
 - Photo alt text and slide order not yet tuned. Draft only. Nothing published; Owner, Square and DNS untouched.
+
+### Evening gallery: coffee, baklava and cake first, alt text added (2026-11-20)
+- Slide order now: baklava tower, rose latte with baklava, baklava platter, pistachio cake with cappuccino, pistachio cake with flowers, baklava stack, two lattes, latte art with tartlets, latte art with croissant. The 5 supporting shots (dessert tray, interior at evening, milkshakes, lounge interior, berry waffle) follow at the end.
+- GoDaddy adds new uploads at the front of a gallery, so the gallery was cleared and re-added in two batches (supporting shots first, then the nine lead photos). Only gallery membership changed; the media library keeps duplicate copies, which is harmless.
+- Alt text ("Image Description") written for all 14 slides, e.g. "Pistachio cake and cappuccino at Pistachio Cafe in New Haven". Verified after a reload that the text and order persisted.
+- Breakfast & Brunch gallery untouched. Draft only. Nothing published; Owner, Square and DNS untouched.
