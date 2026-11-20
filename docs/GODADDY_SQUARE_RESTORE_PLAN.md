@@ -199,3 +199,8 @@ Compared Owner's pages (`content/docs/page__birthdays--space-rentals.html`, `cat
 - **Not matched, left as decisions** (these need Mohamad or a design choice):
   - Birthdays: Owner's five space cards use Owner's own photos; the draft uses its Appointments service thumbnails. Owner's longer intro and per-space wording differ from the Appointments descriptions (GoDaddy's intro field caps near 330 characters). Top heading still "Let us plan your events / birthdays!". Owner's inquiry form is replaced by Appointments booking. The new gallery photos have no per-image alt text yet.
   - Catering: older blocks Owner lacks still sit on the page (Yale, "Cater your next event", space rental, menu book). Owner's second "Order catering now" button and its location/map block are not built. Reviews are GoDaddy's live Google feed, not Owner's three quoted reviews.
+
+### Birthdays gallery alt text (2026-11-20)
+- Added per-image alt text (Image Description) to all 9 photos in the new "A Beloved Space" gallery on the GoDaddy Birthdays page draft.
+- Draft only. Nothing published; Owner, Square and DNS untouched.
+- Still open: Birthdays heading/intro wording, Catering second "Order catering now" button, locations block and quoted reviews. Old Catering blocks left in place by instruction.
