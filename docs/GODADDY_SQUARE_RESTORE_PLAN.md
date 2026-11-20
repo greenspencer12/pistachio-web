@@ -238,3 +238,10 @@ Compared Owner's pages (`content/docs/page__birthdays--space-rentals.html`, `cat
 - Already present, so not re-added: "Hosting an Event? We've Got Catering" with Inquire Now, and "Order From Our Website" with Order Now (in the "Pistachio Cafe in New Haven" story section).
 - Deliberately not added: Rewards block. Owner's rewards program runs on Owner's backend and ends at cancellation; add it only if Mohamad sets up Square Loyalty.
 - Draft only. Nothing published; Owner, Square and DNS untouched.
+
+### Home page: split into Breakfast & Brunch and Evening Coffee & Desserts (2026-11-20)
+- Basis: the Google Ads project (C:\Claude Code\Pistachio Cafe Google Ads, docs 29, 34 and 40) splits the day into DAY (breakfast, brunch, food; 7 AM to 5 PM) and EVE (desserts, coffee, pastries; from 4:30 PM). The website now follows the same split.
+- Existing gallery retitled "Breakfast & Brunch" (the 14 food photos only). The 5 dessert and coffee photos added earlier were removed from it one by one, each confirmed by file name before removal.
+- New gallery "Evening Coffee & Desserts" added directly after it (slideshow, Full Width on, same as Brunch), 14 photos: Mohamad's real photos (baklava stack, pistachio cake with cappuccino, "Pistachio" latte art with tartlets, two lattes, pistachio cake with flowers, latte art with croissant, berry waffle, milkshakes, latte with dessert tray, two interiors) plus the baklava platter, baklava tower and rose latte with baklava. Resized to 1600 px on the long side.
+- Left out on purpose: refresher/cocktail drinks (the user removed the drinks-only grid), "Happy Birthday" plate, New Hours graphics, and text-labelled shots.
+- Photo alt text and slide order not yet tuned. Draft only. Nothing published; Owner, Square and DNS untouched.
