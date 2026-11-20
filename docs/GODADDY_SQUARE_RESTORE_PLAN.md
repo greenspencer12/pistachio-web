@@ -230,3 +230,11 @@ Compared Owner's pages (`content/docs/page__birthdays--space-rentals.html`, `cat
 ### Home page: drinks gallery removed (2026-11-20)
 - On the user's instruction, the drinks/desserts photo gallery (60 photos) was deleted from the Home draft; the photos remain in GoDaddy's media library. Home sections now: hero (video), welcome text, "Fresh Brunch, Seven Days a Week" gallery, "Or take it to go" order CTA, "Pistachio Cafe in New Haven" story blocks, Reviews, Privacy Policy, footer.
 - Not yet matched to Owner's home: Featured items strip, "Hosting an Event? We've Got Catering" block, Rewards block, Featuring badges, FAQ. Draft only; nothing published.
+
+### Home page: second drinks grid removed, brunch gallery refreshed, FAQ added (2026-11-20)
+- A second photo gallery (8 photos: cocktails, mocktail tray, cappuccino, with a "Show More" button) sat between the welcome text and "Fresh Brunch". It was deleted on the user's instruction. This is the section the user meant; the earlier 60-photo deletion was a different gallery.
+- "Fresh Brunch, Seven Days a Week" gallery: 5 pastry, baklava and coffee photos added (baklava platter, baklava tower, rose latte with baklava, marble-table coffee, Arabic coffee), now 20 images. Photos are appended at the end of the carousel, not reordered.
+- New FAQ section added before Reviews (single-column accordion): locations, catering, "What are you known for?". Text uses only facts already on the site. Opening hours were left out until Mohamad provides them.
+- Already present, so not re-added: "Hosting an Event? We've Got Catering" with Inquire Now, and "Order From Our Website" with Order Now (in the "Pistachio Cafe in New Haven" story section).
+- Deliberately not added: Rewards block. Owner's rewards program runs on Owner's backend and ends at cancellation; add it only if Mohamad sets up Square Loyalty.
+- Draft only. Nothing published; Owner, Square and DNS untouched.
