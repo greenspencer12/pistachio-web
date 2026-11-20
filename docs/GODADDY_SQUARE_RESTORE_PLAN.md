@@ -215,3 +215,8 @@ Compared Owner's pages (`content/docs/page__birthdays--space-rentals.html`, `cat
 - Owner's Private Events page has no "Let us plan your events / birthdays!" heading; its title is "Private Events & Dining in New Haven" over "The Perfect Setting for Every Occasion". The draft Introduction section already carried both; the hero gallery's old "LET US PLAN YOUR EVENTS / BIRTHDAYS!" title was removed (cleared) so the heading is not duplicated.
 - Introduction text now: Owner's first paragraph (through "...coffee and hospitality.") plus "Email info@pistachionhv.com for more info." GoDaddy's field caps near 330 characters, so Owner's last two sentences ("Choose from intimate private rooms or larger event spaces. Catering and event packages are customized...") do not fit.
 - Draft only. Nothing published; Owner, Square and DNS untouched.
+
+### Birthdays intro, remaining sentences (2026-11-20)
+- Added a separate dark text-only section right after the Introduction on the GoDaddy Birthdays draft with Owner's last two intro sentences: "Choose from intimate private rooms or larger event spaces. Catering and event packages are customized to your guest count, menu, duration and service needs."
+- Built from the heading+text+button layout; the placeholder button was deleted and the placeholder heading text cleared (GoDaddy keeps an empty heading box in the editor but it renders nothing).
+- Draft only. Nothing published; Owner, Square and DNS untouched.
