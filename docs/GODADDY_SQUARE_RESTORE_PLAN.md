@@ -226,3 +226,7 @@ Compared Owner's pages (`content/docs/page__birthdays--space-rentals.html`, `cat
 - Instagram section deleted from the Home draft (it was unconnected and only showed "Reconnect to Facebook"). Reconnect is still Mohamad's to do; the section can be re-added from Add Section > Social.
 - GoDaddy sections have no hide option, only Move or Delete. The drinks/desserts photo gallery (Home section after the welcome text) is still in place pending a decision.
 - Draft only. Nothing published; Owner, Square and DNS untouched.
+
+### Home page: drinks gallery removed (2026-11-20)
+- On the user's instruction, the drinks/desserts photo gallery (60 photos) was deleted from the Home draft; the photos remain in GoDaddy's media library. Home sections now: hero (video), welcome text, "Fresh Brunch, Seven Days a Week" gallery, "Or take it to go" order CTA, "Pistachio Cafe in New Haven" story blocks, Reviews, Privacy Policy, footer.
+- Not yet matched to Owner's home: Featured items strip, "Hosting an Event? We've Got Catering" block, Rewards block, Featuring badges, FAQ. Draft only; nothing published.
