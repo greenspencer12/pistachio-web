@@ -296,3 +296,11 @@ All edits are GoDaddy DRAFT only; nothing published, Owner untouched.
 - New draft pages: Menu (slug /menu) and Desserts (slug /desserts), text and SEO title/description set. Not in nav. Not published.
 - Search Console showed Owner /menu (about 7.3k impressions) and /tags/dessert had no GoDaddy equivalent; these pages cover them. Full map: docs/ORGANIC_SEO_KEYWORD_MAP_2026-11.md.
 - Done: Menu and Desserts photos and alt text replaced (verified after reload).
+
+## 2026-11-20 status: handover email sent, waiting for Mohamad
+- Saif sent Mohamad the detailed handover email (what was before/now, strategy, benefits, limits, his pre-launch steps, after-DNS steps). Awaiting his reply.
+- GoDaddy draft: all pages autosaved ("Changes saved"); NOT published. Square: SEO fixes staged, NOT published. DNS untouched. Owner unchanged.
+- Mohamad's list: review preview; confirm hours/prices; decide Menu/Desserts in nav; export Owner data (customers, loyalty, lists, photos); publish Square; pick date; publish GoDaddy + point @ records (keep menu, command, Postmark, google-site-verification); test order; cancel Owner last.
+- After DNS (Saif + Mohamad): sitemap, Search Console, Business Profile link, GA4/GTM tags, Ads URLs and 6 sitelinks, social reconnect, 404 check after 1-2 weeks.
+- Known limits: Owner /page/* URLs will 404 (no redirect tool); short ranking dip likely. Unverified: GoDaddy plan price vs Owner cost (do not promise savings).
+- Open minor: per-page H1 check on preview; menu-item thumbnail alt; Press dates; Birthdays space-card photos left as is.
