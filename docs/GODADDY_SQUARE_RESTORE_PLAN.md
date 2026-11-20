@@ -184,3 +184,9 @@ Both sections were switched to the layout "Feature categories with images" (2-co
 - **Proudly Serving New Haven** page (8895a717-...): 3-column "Feature categories with images" layout, square photos, alt text on every card. Cards 1-6: `c01997e5`, `a0f300de`, `2a901f3f`, `03935411`, `d014e068`, `018b4fc6`. Text unchanged.
 - Remaining without photos: Birthdays (14), Press (8), Catering (5); they are not the plain 4-card pattern and need a look first. Still to re-check visually: Brunch cards 3-4 and Halal alt text.
 - Nothing was published; Owner, Square and DNS untouched.
+
+### Birthdays, Press, Catering photo check (2026-11-20, view only, no edits, nothing published)
+- **Birthdays** (74b90cd0-...): the draft already carries photos: hero image, Appointments service thumbnails (salon, dining hall, cake, majlis), a drink-photo grid and a "Photo Gallery" strip. Owner's 14 room/lounge photos (listed above) are not all present; adding them would mean a new gallery section, a design addition, so it was left for Mohamad's decision.
+- **Press** (c317a4f4-...): a blog list with a thumbnail on every article already; nothing to place.
+- **Catering** (732cdb4a-...): the top hero strip already shows the sandwich, sweets and macaron photos; the rest is text and the request form. Nothing to place.
+- Still open: re-check Brunch cards 3-4 and Halal alt text. Nothing was published; Owner, Square and DNS untouched.
