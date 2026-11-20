@@ -268,3 +268,8 @@ All edits are GoDaddy DRAFT only; nothing published, Owner untouched.
 - Privacy Policy section removed by user (footer link covers it).
 - Guest Favorites switched to photo layout. Photos are from our library: latte, baklava stack, sandwich (stand-in for shawarma wrap), cake slice. Cream Croissant currently shows a baklava photo; swap for a real croissant photo.
 - Still for Mohamad: confirm hours and prices, publish, DNS, social reconnect.
+
+### Update (2026-11-20, later): Square photos and 7 AM opening
+- Guest Favorites photos now come from the Square menu (menu.pistachiocafe.com): pistachio latte, cream croissant, baklava box, chicken shawarma wrap, chocolate temptation cake. Prices match Square ($6.55-$6.95, $5.55, $10.95, $17.95, $8.50-$115.00).
+- Location cards now say "Open 7 AM to 9 PM daily, until 10:30 PM Fri/Sat" (7 AM opening per user). Mohamad to confirm closing times per location.
+- Verified after reload: hero buttons, Evening title, Guest Favorites photos, story cards, location cards, FAQ. Nothing published.
