@@ -257,3 +257,14 @@ Compared Owner's pages (`content/docs/page__birthdays--space-rentals.html`, `cat
 - Evening gallery title is now "Evening Coffee & Desserts: Open Late, Until 9 PM and 10:30 PM Fri & Sat". Source: the Owner location pages list 7 AM to 9 PM daily and 7 AM to 10:30 PM Fri/Sat; the Ads docs (27, 29, 39) plan a 10:30 PM Fri/Sat close. **Mohamad must confirm these hours (and whether both locations match) before publishing.**
 - New "Guest Favorites" Menu / Price List section after the Evening gallery, copied from the live Square menu (menu.pistachiocafe.com highlights): Pistachio Latte $6.55-$6.95, Cream Croissant $5.55, Baklava Box 4 pc $10.95, Chicken Shawarma Wrap $17.95, Chocolate Temptation Cake $8.50-$115.00. Prices are a snapshot; recheck at review.
 - Draft only. Nothing published; Owner, Square and DNS untouched.
+
+## Home page: first screen, story, FAQ, locations, Guest Favorites photos (2026-11-20)
+All edits are GoDaddy DRAFT only; nothing published, Owner untouched.
+- Hero: "Order Online" (menu.pistachiocafe.com/s/order) and "Get Directions" (jumps to Visit Us section).
+- Evening title: "Open Late, Until 9 PM Daily and 10:30 PM Fri/Sat" (Mohamad must confirm hours).
+- Brunch gallery title leads with the Breakfast Burrito.
+- "Pistachio Cafe in New Haven" rebuilt as 2 image cards (breakfast and daily meals merged; coffee lovers). "Order From Our Website" moved to FAQ ("How do I order online?").
+- New "Visit Us in New Haven" section: Westville (911 Whalley Ave) and Yale (1245 Chapel St) cards, photos, Get Directions buttons.
+- Privacy Policy section removed by user (footer link covers it).
+- Guest Favorites switched to photo layout. Photos are from our library: latte, baklava stack, sandwich (stand-in for shawarma wrap), cake slice. Cream Croissant currently shows a baklava photo; swap for a real croissant photo.
+- Still for Mohamad: confirm hours and prices, publish, DNS, social reconnect.
