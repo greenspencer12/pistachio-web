@@ -190,3 +190,12 @@ Both sections were switched to the layout "Feature categories with images" (2-co
 - **Press** (c317a4f4-...): a blog list with a thumbnail on every article already; nothing to place.
 - **Catering** (732cdb4a-...): the top hero strip already shows the sandwich, sweets and macaron photos; the rest is text and the request form. Nothing to place.
 - Still open: re-check Brunch cards 3-4 and Halal alt text. Nothing was published; Owner, Square and DNS untouched.
+
+### Birthdays, Press, Catering match pass (2026-11-20, draft only, nothing published)
+Compared Owner's pages (`content/docs/page__birthdays--space-rentals.html`, `catering.html`, `page__press.html`) with the GoDaddy draft.
+- **Birthdays**: added a new "A Beloved Space" Photo Gallery section (stacked layout, dark background) after the existing "Photo Gallery" with Owner's nine "sneak peek of event spaces" photos (`9ebedd9c`, `d4c7b0aa`, `0288a106`, `b336a6e9`, `a51a243f`, `7541d3cc`, `1dc8d7b7`, `07c786f9`, `3c09d2cb`; verified in the preview, 9/250). The six stock photos GoDaddy puts in a new gallery were removed from that new section only. The old drinks/milkshake gallery and hero were not touched.
+- **Catering**: added a "Frequently Asked Questions" section after Reviews with Owner's three Q&As verbatim (24 hours notice; dietary restrictions; plates, napkins, cutlery). GoDaddy adds a default line "Please reach us at info@PISTACHIONHV.COM if you cannot find an answer"; Owner has no such line (same address as the forms). Verified after a reload.
+- **Press**: Owner shows 8 articles; the draft blog lists the same titles with thumbnails. Dates in the draft read one day earlier for the Jan 2021 posts (28 vs 27 January); not changed.
+- **Not matched, left as decisions** (these need Mohamad or a design choice):
+  - Birthdays: Owner's five space cards use Owner's own photos; the draft uses its Appointments service thumbnails. Owner's longer intro and per-space wording differ from the Appointments descriptions (GoDaddy's intro field caps near 330 characters). Top heading still "Let us plan your events / birthdays!". Owner's inquiry form is replaced by Appointments booking. The new gallery photos have no per-image alt text yet.
+  - Catering: older blocks Owner lacks still sit on the page (Yale, "Cater your next event", space rental, menu book). Owner's second "Order catering now" button and its location/map block are not built. Reviews are GoDaddy's live Google feed, not Owner's three quoted reviews.
