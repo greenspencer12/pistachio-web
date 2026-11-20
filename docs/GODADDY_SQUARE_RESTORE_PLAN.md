@@ -220,3 +220,9 @@ Compared Owner's pages (`content/docs/page__birthdays--space-rentals.html`, `cat
 - Added a separate dark text-only section right after the Introduction on the GoDaddy Birthdays draft with Owner's last two intro sentences: "Choose from intimate private rooms or larger event spaces. Catering and event packages are customized to your guest count, menu, duration and service needs."
 - Built from the heading+text+button layout; the placeholder button was deleted and the placeholder heading text cleared (GoDaddy keeps an empty heading box in the editor but it renders nothing).
 - Draft only. Nothing published; Owner, Square and DNS untouched.
+
+### Home page: hero video and Instagram section (2026-11-20)
+- GoDaddy Home draft hero (id 7df63c6c): cover media switched from a still photo to Video. Owner's own hero.mp4 (3.7 MB, from the clone's public/pluto-videos) uploaded to Mohamad's GoDaddy video library and set as the background; description added; "Play video on mobile devices" on. Heading and subtitle overlay unchanged.
+- Instagram section deleted from the Home draft (it was unconnected and only showed "Reconnect to Facebook"). Reconnect is still Mohamad's to do; the section can be re-added from Add Section > Social.
+- GoDaddy sections have no hide option, only Move or Delete. The drinks/desserts photo gallery (Home section after the welcome text) is still in place pending a decision.
+- Draft only. Nothing published; Owner, Square and DNS untouched.
