@@ -275,3 +275,11 @@ All edits are GoDaddy DRAFT only; nothing published, Owner untouched.
 - Verified after reload: hero buttons, Evening title, Guest Favorites photos, story cards, location cards, FAQ. Nothing published.
 - Image clarity fix (2026-11-20): "Pistachio Cafe in New Haven" cards now Landscape crop with the pistachio latte photo on the second card; Westville card uses the lounge/chandelier interior and Yale the red dining room, both Landscape crop (previous panoramic crops cut off the subjects). Tip: after changing a crop, toggle Panoramic then Landscape if the preview looks zoomed on a corner.
 - Yale card photo replaced (2026-11-20) with the cozy seating/lounge photo from the Google Ads assets (raw_images/cozy_yellow_sofa_lounge_raw.jpg). Mohamad to confirm it is the Chapel St location.
+
+## Update 2026-11-20: Westville/Yale photos, SEO rewrites, 911 Whalley Ave page
+
+- Visit Us photos corrected: Westville = yellow sofa lounge, Yale = red dining room.
+- SEO titles and descriptions rewritten for all 14 draft pages (home spam title replaced).
+- New draft page "911 Whalley Ave" with its own SEO title and description (Show in Navigation off, Footer on). Still needs the Westville photo.
+- Still to do: 1245 Chapel St page, https on the header Order Online link, Square SEO review.
+- Findings and URL map: docs/SEO_PRESERVATION_AND_READINESS.md. Nothing published; DNS untouched.
