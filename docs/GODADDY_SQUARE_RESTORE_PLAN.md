@@ -295,4 +295,4 @@ All edits are GoDaddy DRAFT only; nothing published, Owner untouched.
 ## 2026-11-20 organic SEO pass
 - New draft pages: Menu (slug /menu) and Desserts (slug /desserts), text and SEO title/description set. Not in nav. Not published.
 - Search Console showed Owner /menu (about 7.3k impressions) and /tags/dessert had no GoDaddy equivalent; these pages cover them. Full map: docs/ORGANIC_SEO_KEYWORD_MAP_2026-11.md.
-- Open: replace copied Chapel photo and alt on both pages.
+- Done: Menu and Desserts photos and alt text replaced (verified after reload).

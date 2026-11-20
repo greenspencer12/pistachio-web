@@ -26,7 +26,7 @@ Status: GoDaddy draft only. Nothing is published, DNS is untouched, Owner.com is
 All Owner `/page/*` URLs, `/tags/*`, `/places/*`. Matched: /, /catering, /911-whalley-ave, /1245-chapel-st, /story, and now /menu and /desserts (confirm slugs in the preview; the editor does not show them).
 
 ## Pending
-- Menu and Desserts pages still carry a copied Chapel dining-room photo with Chapel alt text. Replace with a food photo and type new alt text.
+- DONE 2026-11-20: Menu (croissant photo) and Desserts (chocolate cake photo) have food photos with typed alt text, verified after reload.
 - Menu and Desserts are not in the main nav (Show in Navigation off, Footer on). Mohamad may want them in the nav.
 - Mohamad to confirm hours and prices before cutover.
 
