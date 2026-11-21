@@ -304,3 +304,17 @@ All edits are GoDaddy DRAFT only; nothing published, Owner untouched.
 - After DNS (Saif + Mohamad): sitemap, Search Console, Business Profile link, GA4/GTM tags, Ads URLs and 6 sitelinks, social reconnect, 404 check after 1-2 weeks.
 - Known limits: Owner /page/* URLs will 404 (no redirect tool); short ranking dip likely. Unverified: GoDaddy plan price vs Owner cost (do not promise savings).
 - Open minor: per-page H1 check on preview; menu-item thumbnail alt; Press dates; Birthdays space-card photos left as is.
+
+## 2026-11-21 pass: Mohamad's review feedback (nothing published, DNS untouched)
+Mohamad's reply (after reviewing): Brunch -> Menu; Desserts -> After Dinner in top nav; copy Private Events and Privacy/House Rules from Owner; Order a Cake off (he does it); Catering form; Join Our Team form with resume upload to a spreadsheet; location photos; point site to Pistachio 2 (Chapel) for now; replace entry video with his footage (Drive folder to come); temporary hidden public test domain (ON HOLD per Saif).
+
+Done in the GoDaddy draft:
+- Mohamad had already renamed Brunch to "Menu" (page a67a3f1e). I set its SEO title/description and deleted my duplicate Menu page (24d07472) to avoid a /menu clash.
+- Desserts renamed "After Dinner" (62b5a42d, slug expected /after-dinner), Show in Navigation ON. It may appear under MORE because the top bar is full.
+- Birthdays & Space Rentals (74b90cd0): intro and policy text updated from Owner (/page/birthdays--space-rentals). Room cards (prices/descriptions) come from GoDaddy Appointments; not opened (standing rule: no Manage).
+- House Rules / Privacy (89fdf4b8): privacy policy replaced with Owner's Feb 11 2026 policy and terms (/terms). House Rules text left as is (no Owner source found). Fixed "OUT STORY" typo.
+- Home hero subtitle now leads with Chapel St (Pistachio 2), then Whalley.
+- Catering page already has a request form (name, email, message, phone, event date, guests, location, space).
+
+Not done / needs Mohamad: Join Our Team resume form + spreadsheet (GoDaddy contact forms have no file upload; likely a Google Form tied to his Google account); catering notification/automation destination; hours confirmation (Owner shows different hours per page); Appointments room prices; Square default location; his photos and video; menu PDF; temporary test domain (on hold).
+Owner facts for reference: Owner /careers has a resume form; /catering has Order catering now; Owner hours vary (home 7-6 daily; contact page Whalley Mon-Thu 7-7:30, Fri-Sun 7-9:30; Chapel 8:30-8:30 / 8:30-10:30).
