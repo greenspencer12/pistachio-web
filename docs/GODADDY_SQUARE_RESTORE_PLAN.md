@@ -318,3 +318,11 @@ Done in the GoDaddy draft:
 
 Not done / needs Mohamad: Join Our Team resume form + spreadsheet (GoDaddy contact forms have no file upload; likely a Google Form tied to his Google account); catering notification/automation destination; hours confirmation (Owner shows different hours per page); Appointments room prices; Square default location; his photos and video; menu PDF; temporary test domain (on hold).
 Owner facts for reference: Owner /careers has a resume form; /catering has Order catering now; Owner hours vary (home 7-6 daily; contact page Whalley Mon-Thu 7-7:30, Fri-Sun 7-9:30; Chapel 8:30-8:30 / 8:30-10:30).
+
+## 2026-11-22 Mohamad's second reply and backend audit (read-only; nothing changed)
+Mohamad: hours/catering form/room prices/top menu/Order a Cake all updated by him; Join Our Team form -> use info@pistachionhv.com for the Google Form; set Chapel as default in Square; House Rules coming; wants temporary test domain; asked about AI Visibility score and Meta Pixel/SEO backend.
+- GoDaddy shows "Last published 22 Nov 2026": Mohamad published the GoDaddy site himself. DNS (checked via nslookup) still points to Cloudflare/Owner, so pistachiocafe.com still serves Owner; the GoDaddy publish is not public on the domain.
+- AI Visibility score 55/100 (Claude, ChatGPT, Google AI Overview). Weak prompt: "Best latte in New Haven coffee shops" (Claude and Google AI do not mention). LLMS.txt is ON.
+- Settings audit: Meta Pixel code added (ID not shown); Cookie banner notification ON (Meta/GA warn tracking needs it); Google Analytics G-CNR0TKGHHH set; Google Tag Manager EMPTY (GTM-PKQXW5S6 left out on purpose to avoid double counting GA4; decide after DNS); Search Console NOT connected (after DNS); per-page SEO done.
+- Square: Ordering locations are "LVPGGESPNE6D0" (unnamed, likely Chapel) and "PISTACHIO CAFE 911 Whalley Ave". The unnamed location needs a proper name. No default-location control found in Online Ordering; check Square Online site settings. Not changed.
+- Open: Google Form needs info@pistachionhv.com signed in; AI visibility copy (pistachio latte); temporary test domain options.
