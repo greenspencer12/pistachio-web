@@ -326,3 +326,10 @@ Mohamad: hours/catering form/room prices/top menu/Order a Cake all updated by hi
 - Settings audit: Meta Pixel code added (ID not shown); Cookie banner notification ON (Meta/GA warn tracking needs it); Google Analytics G-CNR0TKGHHH set; Google Tag Manager EMPTY (GTM-PKQXW5S6 left out on purpose to avoid double counting GA4; decide after DNS); Search Console NOT connected (after DNS); per-page SEO done.
 - Square: Ordering locations are "LVPGGESPNE6D0" (unnamed, likely Chapel) and "PISTACHIO CAFE 911 Whalley Ave". The unnamed location needs a proper name. No default-location control found in Online Ordering; check Square Online site settings. Not changed.
 - Open: Google Form needs info@pistachionhv.com signed in; AI visibility copy (pistachio latte); temporary test domain options.
+
+## 2026-11-22 (later) Join Our Team form, sharing, Square default location
+- Google Form "Pistachio Cafe - Join Our Team" built and published (Anyone with the link). Name/email/phone required; resume is a file-upload question (applicants must sign in to Google). Responses go to Sheet "Pistachio Cafe - Job Applications (Responses)". Both shared with info@pistachionhv.com as Editor; ownership transfer to be done later.
+- Form responder link: https://docs.google.com/forms/d/e/1FAIpQLSceUoJOexqcUpfsHNKosgWxAC6m3BQ5z8AXH9KLWl5WrVOUdA/viewform
+- GoDaddy draft: "Join Our Team" nav link (was app.joinhomebase.com careers) now points to the form. Not published by us.
+- Square: no default-location control found in Ordering locations, Site preferences or Online settings. Locations: unnamed "LVPGGESPNE6D0" (likely Chapel, not clickable) and "PISTACHIO CAFE" 911 Whalley. Nothing changed. Needs Square support or Mohamad's confirmation; do not publish.
+- Not done: temporary test domain (options sent to Saif), House Rules, entry video, location photos.
